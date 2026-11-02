@@ -1,5 +1,6 @@
 ---
 title: "Seats at Stake: A Conditional Estimate of the Knesset Seats Movable by a One-Sided Replacement of Outdoor Campaign Advertising, Israel 2026"
+subtitle: "DOI 10.5281/zenodo.23879734 (all versions; the record names this version's DOI)"
 author:
   - name: Raveh Neeman (editor)
     affiliation: Independent researcher
