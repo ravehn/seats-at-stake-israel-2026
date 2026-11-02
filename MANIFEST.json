@@ -1,6 +1,6 @@
 {
  "package": "seats-at-stake-israel-2026",
- "version": "1.0.2-dev",
+ "version": "1.0.2",
  "line_endings": "LF for text files; data/raw/** and *.csv byte-exact as downloaded or written",
  "files": {
   ".gitattributes": {
@@ -164,44 +164,44 @@
    "bytes": 496667
   },
   "docs/article/figures/fig1_coverage.png": {
-   "sha256": "17756d8b90dcf4db9baccb2cc8550f4f84affe02fec88c845599c033f1a52721",
-   "bytes": 143568
+   "sha256": "121d2275c66eec335ae6fd83035ae8c6f1e556545ae0abedd52c961396ccf565",
+   "bytes": 143169
   },
   "docs/article/figures/fig1_coverage.svg": {
-   "sha256": "cf4c0ca4b6191b61dba0f1367117a746e4aa4b1949cd5c4cbe76885e47bfebf7",
-   "bytes": 99396
+   "sha256": "98acaf10d8b49952b5f064351eb0297d28cac0ba70012d775338014b5e61782a",
+   "bytes": 99090
   },
   "docs/article/figures/fig2_step_curves.png": {
-   "sha256": "c94e5dc990afa49533c1adc77f5120454acb54a8640e91c36d9c735dfcfcaa48",
-   "bytes": 141056
+   "sha256": "640511c50991b2fa56bb9891dd5030f71e4a051d7b3ef07682ce522f818e9350",
+   "bytes": 140658
   },
   "docs/article/figures/fig2_step_curves.svg": {
-   "sha256": "8277eed9ae07ebb11477ce1384e2dd60fe179af8c9f3841777b7fd9f9a755a06",
-   "bytes": 114676
+   "sha256": "8f9973ab3b35f369d69fa09ebe250cc41e1c28cc736d9e5819230ae5685c00a2",
+   "bytes": 114370
   },
   "docs/article/figures/fig3_monte_carlo.png": {
-   "sha256": "46167775c6d20eed5e93f14340c2446b928e9b03cd4fb824bac95724b238138b",
-   "bytes": 77959
+   "sha256": "2e3eb0dcbbd0f99a304673d111209f5dde3393ff3be542beaf06e4c6baf11ce5",
+   "bytes": 77529
   },
   "docs/article/figures/fig3_monte_carlo.svg": {
-   "sha256": "32811a8159616879391ce8a279a13560c5ae4b5823eda406ededb6f468f4ff98",
-   "bytes": 64890
+   "sha256": "4646447b52003c7314d1985202fb904d45b495ce000d8081271e0c825ce89740",
+   "bytes": 64584
   },
   "docs/article/figures/fig4_sensitivity.png": {
-   "sha256": "fcdf89d857387ab9292ab7c21900b4d53bbf16f99a207ad9c7c778956656bb82",
-   "bytes": 93794
+   "sha256": "1c975b8bdd6ec5192f2f772462792980701d4b60791e54f7a6d90446f84e4916",
+   "bytes": 93412
   },
   "docs/article/figures/fig4_sensitivity.svg": {
-   "sha256": "91f5500225b98dfd2a99570ef52782a00035a9aa6e85aad4bc46fd27134c7ff5",
-   "bytes": 79251
+   "sha256": "1ec36276571056a076f297c0e1b8b9bf2614cfcf70238db3cd51f27dc570bbab",
+   "bytes": 78945
   },
   "docs/article/figures/fig5_coverage_scaling.png": {
-   "sha256": "c9db0691dd187808426c0c8177b5870dc58fbf131b9db3db852c77b3d3b373c2",
-   "bytes": 112467
+   "sha256": "4a3917319b977f5c4e3764232f006a01a70885c63a99d56a93dc3435097165ea",
+   "bytes": 112055
   },
   "docs/article/figures/fig5_coverage_scaling.svg": {
-   "sha256": "6c3219b766b74d2273952be87d71da90eaf0d93c04626d76ec709b8b0f1d4da8",
-   "bytes": 80384
+   "sha256": "8266a0dddd3b161f59d36b158bb49c68a40274f853f697b82808ad2f190b3282",
+   "bytes": 80078
   },
   "docs/article/itinerary_sources_k26.csv": {
    "sha256": "2a4850048600c1d11a5db3cc931a1d1ae70171582c6cba9243ba79ae0188d9c7",
@@ -220,16 +220,16 @@
    "bytes": 18933
   },
   "docs/article/results.json": {
-   "sha256": "faf79ea2f8227c34082ddddc1629bd049468643147e817c99b101820982c404c",
-   "bytes": 293731
+   "sha256": "cb755a069cf7e2aec10f5a27359cd03eb52dc5d1d571dc85b86115891bdfc1f8",
+   "bytes": 293727
   },
   "docs/article/seat-estimate-k26.md": {
-   "sha256": "1d6dcef58979fa544a5fb2137ca0939ab914ec72615766b40d544d2de0a87863",
-   "bytes": 116216
+   "sha256": "b5681689ed774809908b5374f7b3f9444528abcde8c055d31c5b00299f302d0f",
+   "bytes": 116330
   },
   "docs/article/seat-estimate-k26.pdf": {
-   "sha256": "70783d0b031c6a127698fb8a2938d17f6f4bc5496ceaf398a66740dca2bc145e",
-   "bytes": 3455358
+   "sha256": "ad534d7992caaa3264003bd9e57a7219b855d5c20f69e9f1dc425163469e7770",
+   "bytes": 3455470
   },
   "docs/article/seat-estimate-k26.template.md": {
    "sha256": "5565c5e67900867a2be3092f4fcd99e8a04001638e9052979486c832e5f9f52e",
@@ -296,8 +296,8 @@
    "bytes": 1745
   },
   "src/electionforensics/__init__.py": {
-   "sha256": "394eb56974251c17d8a7890766d524a7df1aea4068f4f6fb34c8dd41df7e8d32",
-   "bytes": 26
+   "sha256": "6372d27d18a84a5db1721ef4a6afd42e5bf21025f212d37792b55a59e1b26b19",
+   "bytes": 22
   },
   "src/electionforensics/battery/__init__.py": {
    "sha256": "6096091ed7b620370963f1b015f6db264185369ebfcb4b1ddf9016a12e2c13b1",
@@ -636,8 +636,8 @@
    "bytes": 415409
   },
   "README.md": {
-   "sha256": "660addaecf2b9a3e8c415f9e0ba086eb1c7f4301ffa4817423292bc2e52a45bb",
-   "bytes": 6393
+   "sha256": "ee1f0ad866427148e94ebc842fb3e7442241a5e1d42af7367a86b5f1d1084439",
+   "bytes": 6389
   }
  }
 }
