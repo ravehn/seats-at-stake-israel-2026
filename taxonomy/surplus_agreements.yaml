@@ -1,0 +1,21 @@
+# Surplus-vote agreements (הסכמי עודפים) per Knesset election, as pairs of ballot letters.
+# `verified: true` only after the pair list was checked against the CEC's own publication.
+# Sources so far: 26 — press reports collected 2026-10-28 (docs/research/israel-data-map-2026-10-28.md);
+# 25 — press summaries (Hamichlol). Unverified entries are used with a note in T16.
+26:
+  verified: false
+  source: "press reports 16-17 Oct 2026 (deadline for agreements 16.10.2026); re-checked 2026-10-31 against the primary press: ynet, Dan Oren, «מפת העודפים: ההסכמים – ואיך הם ישפיעו על הבחירות וחישוב התוצאות», 11.10.2026, https://www.ynet.co.il/news/elections2026/article/skdhsmfsmx (five pairs; Otzma Yehudit without an agreement), and the Knesset Channel's glossary entry of 14.10.2026, https://www.knesset.tv/main-articles/61384/95057/ (the same five pairs). A sixth pair, Brit Olam–HaTikun [זץ, נקי], appears only in the Hebrew Wikipedia article and is not kept: both lists are far below the threshold, so it cannot affect the allocation. The CEC's own notice could not be read (bechirot.gov.il redirected to maintenance.gov.il on 31.10.2026) — still to verify there"
+  pairs:
+    - ["רק", "ל"]      # Beyachad (Bennett) – Yisrael Beiteinu
+    - ["דרך", "אמת"]   # Yashar (Eisenkot) – The Democrats
+    - ["ודם", "עם"]    # Joint List – Ra'am
+    - ["מחל", "ט"]     # Likud – Religious Zionism/Zehut
+    - ["שס", "ג"]      # Shas – UTJ
+25:
+  verified: true
+  source: "press summaries; VERIFIED 2026-10-28 by reproduction: with these pairs the Bader-Ofer computation on the CEC file returns exactly the official 2022 allocation (32/24/14/12/11/7/6/5/5/4), see tests/test_battery_more.py"
+  pairs:
+    - ["פה", "כן"]     # Yesh Atid – National Unity
+    - ["אמת", "מרצ"]   # Labor – Meretz
+    - ["ג", "שס"]      # UTJ – Shas
+    - ["מחל", "ט"]     # Likud – Religious Zionism

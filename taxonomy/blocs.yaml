@@ -1,0 +1,44 @@
+# Coarse political blocs per election, by ballot letters. Used ONLY to define comparable outcomes
+# across elections whose lists differ (e.g. 2022 vs 2026). "coalition" = lists that backed Netanyahu
+# for prime minister at that election; "change" = lists that ruled that out; "arab" = Arab lists;
+# anything else is "other" (kingmakers and ambiguous lists are deliberately left out of both blocs).
+# Sensitivity runs move the ambiguous lists (marked) between blocs.
+21:
+  coalition: ["מחל", "שס", "ג", "טב", "נ", "כ", "ז"]
+  change: ["פה", "אמת", "מרצ"]
+  arab: ["דעם", "ום"]
+  ambiguous: ["ל"]          # Yisrael Beiteinu refused both, caused the second 2019 election
+22:
+  coalition: ["מחל", "שס", "ג", "טב"]
+  change: ["פה", "אמת", "מרצ"]
+  arab: ["ודעם"]
+  ambiguous: ["ל"]
+23:
+  coalition: ["מחל", "שס", "ג", "טב"]
+  change: ["פה", "אמת"]
+  arab: ["ודעם"]
+  ambiguous: ["ל"]
+24:
+  coalition: ["מחל", "שס", "ג", "ט"]
+  change: ["פה", "כן", "אמת", "מרצ", "ל", "ת"]
+  arab: ["ודעם"]
+  ambiguous: ["ב", "עם"]    # Yamina (Bennett) and Ra'am joined the change government after the election
+25:
+  coalition: ["מחל", "ט", "שס", "ג"]
+  change: ["פה", "כן", "אמת", "מרצ", "ל"]
+  arab: ["עם", "ום", "ד"]
+  ambiguous: []
+26:
+  coalition: ["מחל", "ט", "ב", "שס", "ג"]
+  change: ["דרך", "אמת", "ל"]
+  arab: ["ודם", "עם"]
+  ambiguous: ["רק", "די"]   # Beyachad (Bennett) counted as change in the main run; Reservists-Economic other
+  main_run_change_extra: ["רק"]
+  # An alternative frame, reported in an appendix of the seat article only (the main text keeps the blocs above):
+  # the change bloc with Ra'am as an acceptable partner, the Netanyahu bloc, the Joint List apart, and the change
+  # bloc without Bennett's list.
+  frames:
+    opposition_with_raam: ["דרך", "אמת", "ל", "רק", "עם"]
+    netanyahu_bloc: ["מחל", "ט", "ב", "שס", "ג"]
+    joint_list: ["ודם"]
+    change_without_beyachad: ["דרך", "אמת", "ל"]

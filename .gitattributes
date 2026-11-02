@@ -1,0 +1,14 @@
+# Keep raw evidence byte-identical to what the CEC published: no line-ending conversion on data.
+data/raw/** -text
+*.csv -text
+*.xls binary
+*.xlsx binary
+*.json text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.toml text eol=lf
+*.yaml text eol=lf
+*.ps1 text eol=crlf
+uv.lock text eol=lf
+# audit copies must stay byte-exact for SHA-256 verification: no end-of-line conversion
+audit/** -text

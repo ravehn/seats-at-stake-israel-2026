@@ -1,0 +1,639 @@
+{
+ "package": "seats-at-stake-israel-2026",
+ "version": "0.0.99-dev",
+ "line_endings": "LF for text files; data/raw/** and *.csv byte-exact as downloaded or written",
+ "files": {
+  ".gitattributes": {
+   "sha256": "d7dedf8efa462c2472cf10f922710b5fb09ab8b7d809cb3110891db7af0271af",
+   "bytes": 388
+  },
+  "data/raw/cbs/bycode2024_idi_mirror.xlsx": {
+   "sha256": "de33d0ef836051a8769afa202b43df999114053001bce46164bf5a6976ea5dc1",
+   "bytes": 370654
+  },
+  "data/raw/cbs/cbs_dictionary_geo_localities.json": {
+   "sha256": "884c3a2ec7c168dfe787714601abe0fdc46c15efe6e837449a89ff8c0beb544a",
+   "bytes": 13278
+  },
+  "data/raw/datagov/3b9e911a-2e90-4587-b209-84171664056b.csv": {
+   "sha256": "b3e2d9b4858eab61a97716e618c20e7b03c2469442928c6595adadd78176643c",
+   "bytes": 1239425
+  },
+  "data/raw/datagov/419be3b0-fd30-455a-afc0-034ec36be990.csv": {
+   "sha256": "4c228dbf4387854ccf2a0faaf117113db47cb29c544c98275b00e4765a56745d",
+   "bytes": 1704000
+  },
+  "data/raw/datagov/cc223336-07bc-485d-b160-62df92967c0a.csv": {
+   "sha256": "07c71db1bf844d40cbc4d96c606550f2ada3c9f258287d08679180d0b9a413bc",
+   "bytes": 1746531
+  },
+  "data/raw/datagov/MANIFEST.json": {
+   "sha256": "c9827a896854475965b4b9086328ffb6c8eff275f6ae382ed99c5139fb80ccde",
+   "bytes": 15842
+  },
+  "data/raw/knesset26/snapshots/expb_20261030T121730Z.csv": {
+   "sha256": "858b87d94c409759ea6ab2d22cc1c61fc9ff8bf3b77be669ba83e498c2cea021",
+   "bytes": 1825336
+  },
+  "docs/article/apa.csl": {
+   "sha256": "d9554546338c8f54f02706c4464a18bbce8e53c50cc28ff571e5713d5682adaa",
+   "bytes": 85817
+  },
+  "docs/article/case-01/20261026_111955.jpg": {
+   "sha256": "e5f368d4cb86ad6444d41c01c18acc101c31e9f3371727fa9032d12b13cbcc7f",
+   "bytes": 8465777
+  },
+  "docs/article/case-01/20261026_141805.jpg": {
+   "sha256": "be065425755047ce749e15b23b6726964bf5be3957290255e5d9a43594983c0a",
+   "bytes": 6507607
+  },
+  "docs/article/case-01/20261026_214454.jpg": {
+   "sha256": "a7dafbbaf1c9086992efc39c5e3ed921cd05e9d197432c9d738f67905d569329",
+   "bytes": 6530240
+  },
+  "docs/article/case-01/20261026_215632.jpg": {
+   "sha256": "bf87d7e005aff08f52cf464147e9abc5e50a1682e668cdeb34504b0189a9f31a",
+   "bytes": 7579041
+  },
+  "docs/article/case-01/20261026_220610.jpg": {
+   "sha256": "ce71835e301695c17af02e5d3a9779e9bd7e4d026ae6c0bcc77adc795868819f",
+   "bytes": 7035225
+  },
+  "docs/article/case-01/20261026_224232.jpg": {
+   "sha256": "7d11f8a0d59f264f1466b66d37c6042e4e0b8e90b4f59f08f7d6e5ceae43bb30",
+   "bytes": 8140245
+  },
+  "docs/article/case-01/20261026_224253.jpg": {
+   "sha256": "eb9ecbc54059c7efcbced9302cc735f2ee5dfdda16925cd35f43b50e5223250b",
+   "bytes": 6795447
+  },
+  "docs/article/case-01/20261026_230353.jpg": {
+   "sha256": "41d8ddb1f22aa00271403855e2e6df2876818dc271acd707afd726c0e91ae2ee",
+   "bytes": 1833166
+  },
+  "docs/article/case-01/20261026_233653.jpg": {
+   "sha256": "8614a93bf1f9421c20b7c6186884924f00def3232a9e934aa69f04ae47d9cd4f",
+   "bytes": 1768307
+  },
+  "docs/article/case-01/20261026_233851.jpg": {
+   "sha256": "ba5a994d8fdd1af7e586a945e0489b06a35779d954bf35078ef2802ce501f23f",
+   "bytes": 2437577
+  },
+  "docs/article/case-01/20261027_000750.jpg": {
+   "sha256": "9c18517d5c23e9b1cbb95d19c518e82d3f252e9110fa56d5b42479a14f1fd813",
+   "bytes": 7497794
+  },
+  "docs/article/case-01/20261027_000813.jpg": {
+   "sha256": "267908b692d898defef88cfcbba174fad260c6a784c35244cf1bfcb28340f999",
+   "bytes": 9526490
+  },
+  "docs/article/case-01/20261027_002033.jpg": {
+   "sha256": "1043701c7dc133c23d5342ea463b2a517c0d17494a9d2edc5d7315a07cad0f1f",
+   "bytes": 8573993
+  },
+  "docs/article/case-01/20261027_003825.jpg": {
+   "sha256": "b919989bcaffa28dc34f1293909d2c64784f05a578cb59dcb39da5ab9f18de65",
+   "bytes": 7136372
+  },
+  "docs/article/case-01/20261027_003957.jpg": {
+   "sha256": "2a2f7f5cf333f5d82c52d584b3ae6fc239c13a7fa4af77d6dcbf3515dae3b578",
+   "bytes": 6667157
+  },
+  "docs/article/case-01/20261027_004133.jpg": {
+   "sha256": "d703ab0c13c1b5f9f0c86e27331ad383fcdfc96a24bdb28c9c1708c564f03ca3",
+   "bytes": 6888212
+  },
+  "docs/article/case-01/20261027_011533.jpg": {
+   "sha256": "6a1153356e5b13672c3e43f2b80b18c055a3b3a8136f3fe05e12c1a0bc4cb307",
+   "bytes": 5758422
+  },
+  "docs/article/case-01/20261027_013210(0).jpg": {
+   "sha256": "ce2b94b66178dda58e4b88266c12e5d959a7ac5835fe0d337dbc0a004bf21cf8",
+   "bytes": 6589136
+  },
+  "docs/article/case-01/20261027_013210.jpg": {
+   "sha256": "465e733a0f8257712b51932b5a818053227cd6f45cca213a28156aeff51f5633",
+   "bytes": 6238990
+  },
+  "docs/article/case-01/20261027_013219.jpg": {
+   "sha256": "a25a574d194e515a3b46251a2534dfcd43485ab55c9783c754c366457a7e8992",
+   "bytes": 7544707
+  },
+  "docs/article/case-01/20261027_013222.jpg": {
+   "sha256": "32cea58903afed78be60f03f537fc392a219796cc898ab52ec62b9c2b4cbf594",
+   "bytes": 6663562
+  },
+  "docs/article/case-01/20261027_014355.jpg": {
+   "sha256": "93025fd4d73ac66e57fd8c755f32ddc098db104f7db430117e8b0122a8cdf409",
+   "bytes": 6058648
+  },
+  "docs/article/case-01/20261027_014454.jpg": {
+   "sha256": "8f62cd2032e15554e04cbda24129f4fdea1825ebe0b5a59a3a62973eb4207885",
+   "bytes": 5758686
+  },
+  "docs/article/case-01/manifest.csv": {
+   "sha256": "de6c8601d69c45f54beecf81986650ff9432967d98f3d16dd7cbadd84e5a9295",
+   "bytes": 6074
+  },
+  "docs/article/case-01/preview/pair.jpg": {
+   "sha256": "2083b99fdfeaa842578b18e943e421ce58a3101bdde2a2292c27ad0db76d72e5",
+   "bytes": 490782
+  },
+  "docs/article/case-01/preview/sheet-1.jpg": {
+   "sha256": "eb9f90640dc5b344656cac5ff11479140ae93db155b51089d3ab097563bc55b9",
+   "bytes": 810100
+  },
+  "docs/article/case-01/preview/sheet-2.jpg": {
+   "sha256": "cdd01c10dd2876c77b18ec0a6818ead0b5516da1d17be94963711c3d45a8a7d0",
+   "bytes": 809770
+  },
+  "docs/article/case-01/preview/sheet-3.jpg": {
+   "sha256": "d5a10d70b7e6791c07d2b0511639e1be2a135fb1c428ce752e021a58a8085e0d",
+   "bytes": 496667
+  },
+  "docs/article/case-01-yokneam-public.md": {
+   "sha256": "0542c231142975234c0c3580fb9b043e9a86df957df2b26739d5b30ba131beb2",
+   "bytes": 17813
+  },
+  "docs/article/figures/fig1_coverage.png": {
+   "sha256": "c4cd2c86e83508acb800996965004e1c957732854b4321f7ae8981ed0e16d90c",
+   "bytes": 143613
+  },
+  "docs/article/figures/fig1_coverage.svg": {
+   "sha256": "0b335ae31875f9d5affb8696612f693d3fec8805d34e776bc5b52e7a96c19b5b",
+   "bytes": 99473
+  },
+  "docs/article/figures/fig2_step_curves.png": {
+   "sha256": "2ceecb42f48bb4d465e14f2593ab703581e47af8b53cb49b24c6fb3e19d20558",
+   "bytes": 141091
+  },
+  "docs/article/figures/fig2_step_curves.svg": {
+   "sha256": "95c5c259e4591302230e632914b3b33b347b304b18bc92b207634d915496ef62",
+   "bytes": 114753
+  },
+  "docs/article/figures/fig3_monte_carlo.png": {
+   "sha256": "54ae8df46fc7fd27f20835c7e80b413b0e22f258ccf44832d5b5f3a91b24f2e5",
+   "bytes": 78008
+  },
+  "docs/article/figures/fig3_monte_carlo.svg": {
+   "sha256": "47f5f566521fd0730ce004ef248be717ab1a5f647e4e185a2fdf36abaa2e1753",
+   "bytes": 64967
+  },
+  "docs/article/figures/fig4_sensitivity.png": {
+   "sha256": "3f260fa776870fe7272521d4c395339bb1cfa3afd95bf6435bf2c1ff90bfd319",
+   "bytes": 93835
+  },
+  "docs/article/figures/fig4_sensitivity.svg": {
+   "sha256": "acca6cfdbcdd385f2705ae3947273f41661efb59dab603a7f0e79dd287266a85",
+   "bytes": 79328
+  },
+  "docs/article/figures/fig5_coverage_scaling.png": {
+   "sha256": "0d8dc6d9ac07e5a17a3708c84f6e114d29bcc0245a46fc11535b5deeb0c144ef",
+   "bytes": 112514
+  },
+  "docs/article/figures/fig5_coverage_scaling.svg": {
+   "sha256": "006649188086a505fec30badf2564eab47908df78a4f7081ba183fe09ba92453",
+   "bytes": 80461
+  },
+  "docs/article/itinerary_sources_k26.csv": {
+   "sha256": "2a4850048600c1d11a5db3cc931a1d1ae70171582c6cba9243ba79ae0188d9c7",
+   "bytes": 10825
+  },
+  "docs/article/references.bib": {
+   "sha256": "44bb3ae6a02332417d70cc4f0311587f9269e652c06474bf7583b176e24a1d8c",
+   "bytes": 23534
+  },
+  "docs/article/references_check.json": {
+   "sha256": "9a83e32a9fa32caa5c66a1d78e6a8f6d770e3dbc81f591a15cc9294bc92e1c35",
+   "bytes": 11687
+  },
+  "docs/article/replication/reference.py": {
+   "sha256": "d0001cddf6817559e7338e09fd32edb3a1b6de41b36079f456c11f77340a939d",
+   "bytes": 18933
+  },
+  "docs/article/results.json": {
+   "sha256": "eb3e5e9b27ec3fc68e98857f1ca17e9642b12801c3c493cffcc56d6d7cfaddaf",
+   "bytes": 293732
+  },
+  "docs/article/seat-estimate-k26.md": {
+   "sha256": "503a1ffbfa1dacaa217951a29be40d81750b3f9bed8c17181a077fd604728e03",
+   "bytes": 115896
+  },
+  "docs/article/seat-estimate-k26.pdf": {
+   "sha256": "cd5613f47bdeba35cceacda1653daaa6562838f37cedbacc8ad8035b5268d299",
+   "bytes": 3450308
+  },
+  "docs/article/seat-estimate-k26.template.md": {
+   "sha256": "2c2479a35fe917889438046dd30915337b9a7f814f436f36661a426e9b4c91d2",
+   "bytes": 73609
+  },
+  "docs/article/tables/breakpoints.csv": {
+   "sha256": "3fbea7adc50dcbb7d7b53c72c5de775765b0c5ddd9efd1e3598d5f8980856dca",
+   "bytes": 350
+  },
+  "docs/article/tables/coverage.csv": {
+   "sha256": "16555246be89a9b7786c54515b99a6ef31bda2248ce268dfc7917138981c5705",
+   "bytes": 2044
+  },
+  "docs/article/tables/coverage_scaling.csv": {
+   "sha256": "0c7620e32303b526caf4c8642fbfe1fd3f034a741194579fc1923897498a192d",
+   "bytes": 4692
+  },
+  "docs/article/tables/curves_main.csv": {
+   "sha256": "7380a9aa39d4d782e5a576a45699d2b8d838862c145e8bec6c913bb77fed9cab",
+   "bytes": 182036
+  },
+  "docs/article/tables/factual_allocation.csv": {
+   "sha256": "9dacf998e9ca0e514bf54f8245c5930d7e19decd83daf38ac76647522f009406",
+   "bytes": 1543
+  },
+  "docs/article/tables/factual_allocation_k25.csv": {
+   "sha256": "f071dbec75471831adf2abe3cf302e4b1cd716cae9f557affccd8e534aa5ad1a",
+   "bytes": 1648
+  },
+  "docs/article/tables/grid_all_variants.csv": {
+   "sha256": "f801d070b3945c02b8f4a6339f2e2d50c8b6585e49461dc0c8b3df0e02d0f2b3",
+   "bytes": 36049
+  },
+  "docs/article/tables/grid_main.csv": {
+   "sha256": "10326f4d1390ebaf17b83c54f93083cb45ffa67713f964a57f6d7a243c5c66e4",
+   "bytes": 5914
+  },
+  "docs/article/tables/itinerary_k26.csv": {
+   "sha256": "2aa06db6936e2581812883178dd1c1f58eea686bbf56e3b8113cff7b20a359aa",
+   "bytes": 12766
+  },
+  "docs/article/tables/monte_carlo.csv": {
+   "sha256": "55d26f11e911b2722ba97fafd30684a5702ab2a92502d2732ace97be16089401",
+   "bytes": 827
+  },
+  "docs/article/tables/monte_carlo_priors.csv": {
+   "sha256": "0fd7bd8196acd6309a9fef6a3517fbeb98288a5453e990d1c9cd78443f5f4ad3",
+   "bytes": 2176
+  },
+  "docs/article/tables/units_A.csv": {
+   "sha256": "06df6026d86df96dd39a02aedcfc66ddacec0af472834cca1f63d4dddb83e3d0",
+   "bytes": 180983
+  },
+  "docs/article/tables/units_B.csv": {
+   "sha256": "40bf405bbaf5ebab9a934a93d9ab3b1f5aabf22993065ad7c6c29e5ced4916fe",
+   "bytes": 279066
+  },
+  "docs/article/tables/units_B_haredi.csv": {
+   "sha256": "8e80cb99b552019f0342ae2b634aff00118783f2f1b5ddce6c81864eab84abfe",
+   "bytes": 292675
+  },
+  "LICENSE": {
+   "sha256": "860e767eaa9089ad7ebefbb0945f8dec25a30bb752e35fd26da9c6c65e32837b",
+   "bytes": 1069
+  },
+  "pyproject.toml": {
+   "sha256": "a56acafc475ab962a5935e71780d028c4d27ad0b595e9e3c9544bf7048952e66",
+   "bytes": 1661
+  },
+  "src/electionforensics/__init__.py": {
+   "sha256": "49fc18a40b9b634ee900068a580924dff41cce301e5ebad77139f985c9b20ac7",
+   "bytes": 27
+  },
+  "src/electionforensics/battery/__init__.py": {
+   "sha256": "6096091ed7b620370963f1b015f6db264185369ebfcb4b1ddf9016a12e2c13b1",
+   "bytes": 231
+  },
+  "src/electionforensics/battery/base.py": {
+   "sha256": "d957239ad0a8fea5d6f07e89c7a60a8bae0bac293750d0b9b5856e61fba9874f",
+   "bytes": 3355
+  },
+  "src/electionforensics/battery/t01_validity.py": {
+   "sha256": "b6220ce40b2774415584b77a7034d531a38e9737c68451509bdc71f317841280",
+   "bytes": 1973
+  },
+  "src/electionforensics/battery/t02_fingerprint.py": {
+   "sha256": "0ac40df2ab4da47f48a2f5a7912327e445146d2b0f0c1f84e56b764a7fd18186",
+   "bytes": 3346
+  },
+  "src/electionforensics/battery/t03_klimek.py": {
+   "sha256": "230f25cd71797226611d80202065fbae02ecf2a13578e419472b397a887c7937",
+   "bytes": 9430
+  },
+  "src/electionforensics/battery/t04_shpilkin.py": {
+   "sha256": "3cb755919fe482f060778b831b64c07fa75b3336152f4e0df15a0d706df21320",
+   "bytes": 3513
+  },
+  "src/electionforensics/battery/t05_integer.py": {
+   "sha256": "9bc538dd92ef926a7e777e597802350012edf12048efba89cde0ec6eaf5aa8cf",
+   "bytes": 4307
+  },
+  "src/electionforensics/battery/t06_coarse_fractions.py": {
+   "sha256": "ca95d3dafb8adc3754f0eef6a94e04c92641829cbfbd86e3abdb7f1efd1b599b",
+   "bytes": 6176
+  },
+  "src/electionforensics/battery/t07_last_digit.py": {
+   "sha256": "9f126a47c06c9c72d110abf4c446228b33fe0956aca9c1bf36ffcffaae07b84e",
+   "bytes": 6271
+  },
+  "src/electionforensics/battery/t08_hierarchical.py": {
+   "sha256": "3d41ba74e4da88bf31b3afcdbae3ad1c4390f5425422c318dd256fdb45d48fa1",
+   "bytes": 9422
+  },
+  "src/electionforensics/battery/t09_siblings.py": {
+   "sha256": "18ee84466ca1e49fdc1c4157ab4cec1ad1fdff0842c7d158858e8f08c41c29c1",
+   "bytes": 4603
+  },
+  "src/electionforensics/battery/t10_zero_peers.py": {
+   "sha256": "abc450ace5ff798b1f5b37be91eb189deee68615a8ba0a4e86bf25657846c489",
+   "bytes": 4098
+  },
+  "src/electionforensics/battery/t11_invalid.py": {
+   "sha256": "41ee73c91fed972105f9a8b60aff5846f224110e1099bb7dade429964916dea6",
+   "bytes": 5021
+  },
+  "src/electionforensics/battery/t12_history_shift.py": {
+   "sha256": "c8afda5737f42ae1ad96667bfe85e25752d1158e5d580d3e6d909af3b1658378",
+   "bytes": 5179
+  },
+  "src/electionforensics/battery/t13_small_stations.py": {
+   "sha256": "9ca7ce04f7ce2aaaa9fe01d6b59ea6ea460c6ca51c1d292ffdf23926bcf3a7a6",
+   "bytes": 8661
+  },
+  "src/electionforensics/battery/t14_count_dynamics.py": {
+   "sha256": "fd8153587d10fc24e1695b3d102822ed88800a6b5934c000cf5f1a951a4f9eb1",
+   "bytes": 4409
+  },
+  "src/electionforensics/battery/t15_double_envelopes.py": {
+   "sha256": "d7f3e70f88993bf60cefa38c8ff265c41816dc7b9a98a4654fd379713373f8a8",
+   "bytes": 8215
+  },
+  "src/electionforensics/battery/t16_representation.py": {
+   "sha256": "381fb7704d8801ef0cbc51c3bf9517df30eea00e54e7831dc055922e73852af0",
+   "bytes": 5745
+  },
+  "src/electionforensics/battery/t17_displacement.py": {
+   "sha256": "7649fe50bf854da1b1b3eac866cc79f57d84f483f7d556f465bb23290d8030e8",
+   "bytes": 10300
+  },
+  "src/electionforensics/calibrate/__init__.py": {
+   "sha256": "b93cd00712fe7637625a0d72ab1ba6b9f72a5dd152aac99295aacbe3088cabf8",
+   "bytes": 98
+  },
+  "src/electionforensics/calibrate/baseline.py": {
+   "sha256": "267820e90f78eabab6dbe751d524c98f4733bea2112c519f7aa01b8c0b5c509b",
+   "bytes": 21090
+  },
+  "src/electionforensics/calibrate/inject.py": {
+   "sha256": "5a0bf943cd0e8f3e4b0e4c68bf0aaa827ab84fb1b741f8e9d8cb72841116586f",
+   "bytes": 6619
+  },
+  "src/electionforensics/calibrate/power.py": {
+   "sha256": "4c9216ace66a7d43a4c0dc71e6c9221580a2481a5088e4f6f4facb682e34364a",
+   "bytes": 5527
+  },
+  "src/electionforensics/cli.py": {
+   "sha256": "8e6a66a39c551ffc234f325bd4c1f1838c3a61697c41c4f8bb502611df1bce0b",
+   "bytes": 35764
+  },
+  "src/electionforensics/config.py": {
+   "sha256": "6af896dd91a87395fd4e2888321f5ebaa09dbea59bc8c5264cb1ef562849de9f",
+   "bytes": 1169
+  },
+  "src/electionforensics/design/__init__.py": {
+   "sha256": "5f3a3e4493e9efcabce5f41273ad7e54c9e63ebcbc636ae78c578afe0af23c29",
+   "bytes": 2056
+  },
+  "src/electionforensics/design/effect.py": {
+   "sha256": "70f7935c40076c6d8801fad4a9d791a8736b09ec820af2e756743cb88bf054de",
+   "bytes": 8736
+  },
+  "src/electionforensics/design/estimators.py": {
+   "sha256": "8e22c5ad26efad0cbd0c4cc47979ce3248b19f2bf2f40df4a0dc63022860beeb",
+   "bytes": 7028
+  },
+  "src/electionforensics/design/panel.py": {
+   "sha256": "df55c8666619c7491c374f23c33ac7004999334f198c7e389c09f8ea8a7e0e24",
+   "bytes": 10214
+  },
+  "src/electionforensics/design/report.py": {
+   "sha256": "84287bfba80fca21933e9935709c045e3f8bf1bb5b3a71ccd14b9b2f27de1e45",
+   "bytes": 24631
+  },
+  "src/electionforensics/design/retro.py": {
+   "sha256": "be3e4093b7d2440a88aff9bacd5ab2e4d87d6acdecf503d014da1a2784c0c695",
+   "bytes": 6913
+  },
+  "src/electionforensics/design/simulate.py": {
+   "sha256": "7e4cd7f687e3c26eaf0599000ce3f84521b09e9e93c93064488661e8dd8c7154",
+   "bytes": 19988
+  },
+  "src/electionforensics/incidents/__init__.py": {
+   "sha256": "1a4243e64184f594a3eb86f6ba18ea21861f80d749e28904df4e5d00c1f2ecbe",
+   "bytes": 92
+  },
+  "src/electionforensics/incidents/cec_decisions.py": {
+   "sha256": "4d824998e629ed7bb35ff59442460be6df7de6aa2fa082cf440f8218df520c7a",
+   "bytes": 7937
+  },
+  "src/electionforensics/incidents/collect.py": {
+   "sha256": "bbf031a94e8be5742d39a17d685f8620431a93544fa9ce977192b9568e26a2ea",
+   "bytes": 8617
+  },
+  "src/electionforensics/incidents/geo.py": {
+   "sha256": "9d182041e9461cd19d56da4b705c724851b575a3922d502668ff92a0e6555d15",
+   "bytes": 6577
+  },
+  "src/electionforensics/incidents/photos.py": {
+   "sha256": "b56bb0e2b00ed1006716202640de1aa8b56acdf9624d74c74f89ece705566ba9",
+   "bytes": 5408
+  },
+  "src/electionforensics/incidents/seed.py": {
+   "sha256": "37b0a4daa96e96844f7660a322b59665f429e846f04111c1a31eb957fbbfea4b",
+   "bytes": 3098
+  },
+  "src/electionforensics/incidents/statements.py": {
+   "sha256": "353b63771229a457194f8836af31e9ae1a8f51a284be6083314342d6327e49e8",
+   "bytes": 2993
+  },
+  "src/electionforensics/incidents/store.py": {
+   "sha256": "7faa61ed4702d2853bdcc1b26741f84ff370e6b122617dd7dcc36ee5407d24c4",
+   "bytes": 13787
+  },
+  "src/electionforensics/ingest/__init__.py": {
+   "sha256": "1645802ad1290613a4ae2af25ddee6a7e62b6d28501e5db2168132822abde94c",
+   "bytes": 97
+  },
+  "src/electionforensics/ingest/cbs.py": {
+   "sha256": "5257acd97e29041fcc7a7d2064153cf63bc854d8daf45774de5643a5c6c3682f",
+   "bytes": 3323
+  },
+  "src/electionforensics/ingest/cec.py": {
+   "sha256": "599f32562832aeaf807d67104da5e4b15334f9ac7cc5c6f00abc3d60bdd04cfe",
+   "bytes": 10549
+  },
+  "src/electionforensics/ingest/places.py": {
+   "sha256": "c0ba41f6e9416f68b85efd0b0799421ce1b0925369b9a754947c216a919e10ee",
+   "bytes": 10855
+  },
+  "src/electionforensics/ingest/registry.py": {
+   "sha256": "f92f17c258ab6ac11fbdda9d14038f4408a5e7a5a645451cd767d33d2a412465",
+   "bytes": 6193
+  },
+  "src/electionforensics/ingest/snapshots.py": {
+   "sha256": "940acf75c5e299fd98b7bd7c9ab7e4f5545a71fe580ed318449fa37ec1628ac9",
+   "bytes": 4359
+  },
+  "src/electionforensics/link/__init__.py": {
+   "sha256": "8777e60f755b15a5764c763c0b798d6774b6201f4e9710de6ed5559391922265",
+   "bytes": 84
+  },
+  "src/electionforensics/link/city_effect.py": {
+   "sha256": "f916428a0ddb5bd0947758f26ced85a4357c7439eef8b0ae513898c4a405897f",
+   "bytes": 10178
+  },
+  "src/electionforensics/link/exposure.py": {
+   "sha256": "7a66d58862493ed804d2ed9d1f7b02258a21359659263ee3c0f93d8739fb2c0b",
+   "bytes": 9022
+  },
+  "src/electionforensics/model/__init__.py": {
+   "sha256": "1944cb939e5243fd108a018e670f1a88dd5b08ea03d8e90ebbfb1d04b42cdf3c",
+   "bytes": 102
+  },
+  "src/electionforensics/model/features.py": {
+   "sha256": "4849a3f582fd620088e7a324bb06b15c18dc0d65332c6d527f3ed0473593902c",
+   "bytes": 5207
+  },
+  "src/electionforensics/model/history.py": {
+   "sha256": "108dca73a13889ff8bd975b4a2d6a65682f424e5e52b73f2948387325a57eb99",
+   "bytes": 2170
+  },
+  "src/electionforensics/present/__init__.py": {
+   "sha256": "13eb9b16385ff046989756405278d01fe48ed6ee843c41f12503fa668c741fc7",
+   "bytes": 86
+  },
+  "src/electionforensics/present/figpack.py": {
+   "sha256": "196dafe93112af2facef6bea7afbeca98391570442cc6c1f135b447dad6bf5ab",
+   "bytes": 10696
+  },
+  "src/electionforensics/present/figures.py": {
+   "sha256": "65f2b9bf97f072a6bab895969b095623c0c5695c99247ea5fbd7e88686aa9aad",
+   "bytes": 7732
+  },
+  "src/electionforensics/present/locality.py": {
+   "sha256": "01edee00408b940c5b9620c7865cc5e8dc852b946b800ec1b67a161913526fd3",
+   "bytes": 79279
+  },
+  "src/electionforensics/present/publication.py": {
+   "sha256": "33aabde310f22bb9e4700c5409b130e8bb7dbb1ce5373858f77ca05b385f7c26",
+   "bytes": 27108
+  },
+  "src/electionforensics/present/report.py": {
+   "sha256": "14c6097db414e8f4abc3a235cc38146e0c44ad08b4052cae297301df141423e5",
+   "bytes": 70464
+  },
+  "src/electionforensics/present/theme.py": {
+   "sha256": "a83ef60e2499b7f48eaa883bf7451de93fb383c7598c41ed50f13d7a1820a328",
+   "bytes": 19775
+  },
+  "src/electionforensics/provenance.py": {
+   "sha256": "9ac84665a668a7f1aeba01a11766968b179a1fe6f8ba9a9c4b2bd1161863512e",
+   "bytes": 4482
+  },
+  "src/electionforensics/seats/__init__.py": {
+   "sha256": "62f4738fa90e96cae28f27baf0daea3693b7f8aa8c9a15992dfe4477f94abef7",
+   "bytes": 1205
+  },
+  "src/electionforensics/seats/allocation.py": {
+   "sha256": "33a7cff68cb470068e4e3da33a310b3d1cd482a896d199439603b7e0d0efe4c2",
+   "bytes": 6891
+  },
+  "src/electionforensics/seats/article.py": {
+   "sha256": "17731089e85d9fbde8efc09945f623c841e95d787123e095291769c730863e29",
+   "bytes": 16744
+  },
+  "src/electionforensics/seats/counterfactual.py": {
+   "sha256": "e2d0b8122b6d408b14f8ae497785359f62873a602c62735b5f561f65c9f96ca0",
+   "bytes": 7256
+  },
+  "src/electionforensics/seats/coverage.py": {
+   "sha256": "b0cae1300e970f73f2306bf8c246c4d505bf2fcbbf12f59edb2824273040cdc1",
+   "bytes": 7396
+  },
+  "src/electionforensics/seats/estimate.py": {
+   "sha256": "773c8bad624ba174aaf3a1235374a666347ee65cd4f296db3b512beff8ba13d4",
+   "bytes": 25590
+  },
+  "src/electionforensics/seats/figures.py": {
+   "sha256": "e235c46f3ebb2a81976c76bf97258f4bcfc0387066a8c9444af7d42aaa8aa688",
+   "bytes": 14949
+  },
+  "src/electionforensics/seats/itinerary.py": {
+   "sha256": "345b7f301f754406eff4b721692685d7cc9c80e74bb57710d611aa62228ed792",
+   "bytes": 7310
+  },
+  "src/electionforensics/seats/scaling.py": {
+   "sha256": "71d6e58fa2ab6acd6bc991f9aa6bc20bdebc40c62f7ed2de27d6d8d18f7f5591",
+   "bytes": 5174
+  },
+  "src/electionforensics/taxonomy.py": {
+   "sha256": "b890735c5943e7265d06096c77182ad69ac6c44afcbd484e887be1fe2fec2394",
+   "bytes": 762
+  },
+  "taxonomy/blocs.yaml": {
+   "sha256": "22d04d02640621934acf961508aa085a9bec7c71996fb29e3184fee3fe3902cd",
+   "bytes": 2074
+  },
+  "taxonomy/druze_localities.yaml": {
+   "sha256": "0ed84741cc2543593773d84d6425c654495f3f97dcf25c1a50dae78831ec08e5",
+   "bytes": 1300
+  },
+  "taxonomy/parties.yaml": {
+   "sha256": "2839cf936527688697e15684945f79b584e30e71a70e26a0f402074a7cc1f053",
+   "bytes": 7297
+  },
+  "taxonomy/surplus_agreements.yaml": {
+   "sha256": "02993bc048e8791aea2e55d399624242ca42a1051802149f718934cb9538a073",
+   "bytes": 2007
+  },
+  "tests/__init__.py": {
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  "tests/conftest.py": {
+   "sha256": "cb846a1a216c34371c5efe3ebde43aba7679e852c55f8e01db0245b9148908e7",
+   "bytes": 3027
+  },
+  "tests/test_case01_exhibits.py": {
+   "sha256": "fc6637e66826284d51244098d4673779b84d9afa1e2ab851c30f2016e328ec3f",
+   "bytes": 3386
+  },
+  "tests/test_itinerary.py": {
+   "sha256": "52e299bcde9fcfe06db57bf6d6ad50f088dfa11ca8bbc19928b2f05b95842111",
+   "bytes": 7047
+  },
+  "tests/test_provenance.py": {
+   "sha256": "0c6f30ff80fd90b56b72f34322128282c0fd7d95f621f1018d10d326e24bb0cc",
+   "bytes": 5200
+  },
+  "tests/test_reference_implementation.py": {
+   "sha256": "9cc85794618b64c6449fb25d76629ae7336de865034717b7dcf9ca18bfa2da24",
+   "bytes": 9546
+  },
+  "tests/test_seats.py": {
+   "sha256": "04ac74ed439e43ee5ffbed696e8433e9668c84bde763f90fa52a787e8ecfa72c",
+   "bytes": 16348
+  },
+  "tools/build_replication_package.py": {
+   "sha256": "cf2c3c1047fc76c046bd493043a28aada3e2e7e4db06c52e77c872829a8016cd",
+   "bytes": 18657
+  },
+  "tools/verify_bib.py": {
+   "sha256": "c506cc251e11b4f4c6a106fdc133096499cff46ddf7f35a9c5e62ac6f9230f6e",
+   "bytes": 4435
+  },
+  "uv.lock": {
+   "sha256": "6890a9df8029a83bebf9f0d4c36e417150142a6eafc22c54002f326149a98e94",
+   "bytes": 415409
+  },
+  "README.md": {
+   "sha256": "d68fd16945bf11c3c5923e4f6cf1b65eb05514331b89389625785b2a101631a2",
+   "bytes": 6057
+  }
+ }
+}

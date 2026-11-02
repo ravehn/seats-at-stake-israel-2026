@@ -1,0 +1,60 @@
+# Lists per Knesset election: ballot letters -> names. `he` is the official list name as published
+# by the CEC (26: votes26.bechirot.gov.il, read 2026-10-28); `ru` a short Russian label for the
+# report; `en` a short English label. `bloc` is a coarse political-bloc tag used only for labelling
+# in figures, never for inference: coalition (Netanyahu bloc), change (opposition bloc), arab, other.
+26:
+  source: "votes26.bechirot.gov.il national results page, 2026-10-28 09:16"
+  lists:
+    מחל: {he: "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה", he_short: "הליכוד", ru: "Ликуд", en: "Likud", bloc: coalition}
+    דרך: {he: "ישר! עם איזנקוט לראשות הממשלה מאחדים את ישראל", he_short: "ישר!", ru: "Яшар! (Айзенкот)", en: "Yashar! (Eisenkot)", bloc: change}
+    ודם: {he: "הרשימה המשותפת", he_short: "הרשימה המשותפת", ru: "Объединённый список", en: "Joint List", bloc: arab}
+    רק: {he: "ביחד בראשות נפתלי בנט", he_short: "ביחד", ru: "Бэяхад (Беннет)", en: "Beyachad (Bennett)", bloc: change}
+    אמת: {he: "הדמוקרטים בראשות יאיר גולן", he_short: "הדמוקרטים", ru: "Демократы (Голан)", en: "The Democrats (Golan)", bloc: change}
+    ג: {he: "יהדות התורה והשבת אגודת ישראל - דגל התורה", he_short: "יהדות התורה", ru: "Яхадут ха-Тора", en: "UTJ", bloc: coalition}
+    ל: {he: "ישראל ביתנו בראשות אביגדור ליברמן", he_short: "ישראל ביתנו", ru: "НДИ (Либерман)", en: "Yisrael Beiteinu", bloc: change}
+    שס: {he: "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל", he_short: "ש\"ס", ru: "ШАС", en: "Shas", bloc: coalition}
+    ב: {he: "עוצמה יהודית בראשות איתמר בן גביר", he_short: "עוצמה יהודית", ru: "Оцма Йехудит (Бен-Гвир)", en: "Otzma Yehudit", bloc: coalition}
+    ט: {he: "הציונות הדתית בראשות בצלאל סמוטריץ' וזהות בראשות משה פייגלין", he_short: "הציונות הדתית–זהות", ru: "Религиозный сионизм — Зеут", en: "Religious Zionism–Zehut", bloc: coalition}
+    עם: {he: "רע\"ם - הרשימה הערבית המאוחדת", he_short: "רע\"ם", ru: "РААМ", en: "Ra'am", bloc: arab}
+    די: {he: "המילואימניקים והכלכלית בראשות יועז הנדל וירון זליכה", he_short: "המילואימניקים והכלכלית", ru: "Резервисты и Экономическая (Хендель, Зелиха)", en: "Reservists–Economic", bloc: other}
+    ך: {he: "עמך ישראל בראשות עופר וינטר", ru: "Амха Исраэль (Винтер)", en: "Amcha Israel", bloc: other}
+    זך: {he: "הציבור החרדי בראשות מוטי ליטנר", ru: "Харедимная публика (Литнер)", en: "HaTzibur HaHaredi", bloc: other}
+    נר: {he: "צבע שחור - מגן עולם התורה", ru: "Цева шахор", en: "Tzeva Shachor", bloc: other}
+    ני: {he: "נעם לישראל למען עתיד הילדים בראשות אבי מעוז", ru: "Ноам (Маоз)", en: "Noam", bloc: other}
+    בי: {he: "צומת בית ישראל", ru: "Цомет Бейт Исраэль", en: "Tzomet Beit Yisrael", bloc: other}
+    ד: {he: "השותפות לכולם", ru: "Шутафут ле-кулам", en: "HaShutafut LeKulam", bloc: other}
+    צדק: {he: "שרשר לאהבה ואחדות העם", ru: "Шаршер", en: "Sharsher", bloc: other}
+    בד: {he: "מפלגת ביחד נצליח - רשימה משותפת ערבית יהודית בראשות אבי שקד", ru: "Бэяхад ницлиах (Шакед)", en: "Beyachad Nitzliach", bloc: other}
+    ה: {he: "גן עדן בראשות ישוע ישראל בן דוד", ru: "Ган Эден", en: "Gan Eden", bloc: other}
+    י: {he: "ישראל תחילה בראשות שרן השכל", ru: "Исраэль тхила (Хаскель)", en: "Yisrael Tehila", bloc: other}
+    רץ: {he: "הקהל - מפלגה כלל חרדית שנציגיה נבחרים על ידי הציבור בראשות הרב שלמה אלבוים", ru: "Ха-Кахаль", en: "HaKahal", bloc: other}
+    נקי: {he: "התיקון לשיטת הבחירות והממשל", ru: "Ха-Тикун", en: "HaTikun", bloc: other}
+    קך: {he: "סדר-חדש לכינון חוקה, להפרדת רשויות ובחירות אישיות", ru: "Седер хадаш", en: "Seder Hadash", bloc: other}
+    צף: {he: "הפיראטים - צפים לטוב", ru: "Пираты", en: "Pirates", bloc: other}
+    פה: {he: "אני ואתה מפלגת העם הישראלית", ru: "Ани ве-ата", en: "Ani VeAta", bloc: other}
+    בקר: {he: "אורות השחר בראשות ניסים לוק", ru: "Орот ха-шахар", en: "Orot HaShachar", bloc: other}
+    קץ: {he: "משפט צדק", ru: "Мишпат цедек", en: "Mishpat Tzedek", bloc: other}
+    קה: {he: "קול הנשים", ru: "Коль ха-нашим", en: "Kol HaNashim", bloc: other}
+    כן: {he: "כחול לבן", ru: "Кахоль-лаван", en: "Blue and White", bloc: other, note: "name per press list; verify on CEC"}
+    נף: {he: "שמע", ru: "Шма", en: "Shema", bloc: other, note: "verify"}
+    זץ: {he: "ברית עולם", ru: "Брит олам", en: "Brit Olam", bloc: other, note: "verify"}
+    יק: {he: "גוש התנ\"ך", ru: "Гуш ха-Танах", en: "Tanakh Bloc", bloc: other, note: "verify"}
+    ז: {he: "בטח", ru: "Бетах", en: "Betach", bloc: other, note: "verify"}
+    נץ: {he: "ביטחון אישי", ru: "Битахон иши", en: "Bitachon Ishi", bloc: other, note: "verify"}
+    צבי: {he: "אחי", ru: "Ахи", en: "Achi", bloc: other, note: "verify"}
+    ק: {he: "תקומה", ru: "Ткума", en: "Tkuma", bloc: other, note: "verify"}
+25:
+  source: "CEC 2022 results; names abbreviated"
+  lists:
+    מחל: {he: "הליכוד", ru: "Ликуд", en: "Likud", bloc: coalition}
+    פה: {he: "יש עתיד", ru: "Еш Атид", en: "Yesh Atid", bloc: change}
+    ט: {he: "הציונות הדתית", ru: "Религиозный сионизм", en: "Religious Zionism", bloc: coalition}
+    כן: {he: "המחנה הממלכתי", ru: "Ха-Махане ха-Мамлахти", en: "National Unity", bloc: change}
+    שס: {he: "ש\"ס", ru: "ШАС", en: "Shas", bloc: coalition}
+    ג: {he: "יהדות התורה", ru: "Яхадут ха-Тора", en: "UTJ", bloc: coalition}
+    ל: {he: "ישראל ביתנו", ru: "НДИ", en: "Yisrael Beiteinu", bloc: change}
+    עם: {he: "רע\"ם", ru: "РААМ", en: "Ra'am", bloc: arab}
+    ום: {he: "חד\"ש-תע\"ל", ru: "ХАДАШ-ТААЛ", en: "Hadash–Ta'al", bloc: arab}
+    אמת: {he: "העבודה", ru: "Авода", en: "Labor", bloc: change}
+    מרצ: {he: "מרצ", ru: "МЕРЕЦ", en: "Meretz", bloc: change}
+    ד: {he: "בל\"ד", ru: "БАЛАД", en: "Balad", bloc: arab}

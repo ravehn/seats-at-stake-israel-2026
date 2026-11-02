@@ -1,0 +1,26 @@
+# Druze localities (CBS codes). The CBS localities file codes all Arab localities alike (religion
+# code 2), yet Druze towns vote for Zionist lists and do not share the Arab lists' turnout dynamics,
+# so they form their own sector for matching and calibration. Mixed localities with a large Druze
+# share are listed separately. Golan Druze villages have few Israeli citizens (low turnout by design).
+# Source: public knowledge of locality composition; verify each against CBS religion tables when available.
+druze:
+  - {code: 494, name: "דאלית אל-כרמל"}
+  - {code: 534, name: "עספיא"}
+  - {code: 502, name: "ירכא"}
+  - {code: 485, name: "ג'וליס"}
+  - {code: 1296, name: "כסרא-סמיע"}
+  - {code: 536, name: "פקיעין (בוקייעה)"}
+  - {code: 496, name: "חורפיש"}
+  - {code: 480, name: "בית ג'ן"}
+  - {code: 1295, name: "יאנוח-ג'ת"}
+  - {code: 525, name: "סאג'ור"}
+  - {code: 546, name: "עין אל-אסד"}
+  - {code: 4201, name: "מג'דל שמס"}
+  - {code: 4001, name: "בוקעאתא"}
+  - {code: 4203, name: "מסעדה"}
+  - {code: 4502, name: "עין קנייא"}
+mixed_with_druze:
+  - {code: 473, name: "אבו סנאן"}
+  - {code: 481, name: "מגאר"}
+  - {code: 543, name: "ראמה"}
+  - {code: 8800, name: "שפרעם"}

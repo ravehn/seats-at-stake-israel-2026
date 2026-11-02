@@ -1,0 +1,414 @@
+{
+ "checked_at": "2026-11-02T05:36:07+00:00",
+ "file": "references.bib",
+ "entries": 55,
+ "found": 32,
+ "title_mismatch": 0,
+ "no_doi": 23,
+ "errors": 0,
+ "items": [
+  {
+   "key": "green2016lawn",
+   "doi": "10.1016/j.electstud.2015.12.002",
+   "status": "found",
+   "crossref_title": "The effects of lawn signs on vote outcomes: Results from four randomized field experiments",
+   "crossref_year": 2016,
+   "crossref_container": "Electoral Studies",
+   "year_match": true
+  },
+  {
+   "key": "estebancasanelles2021exposure",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "maurice2023signs",
+   "doi": "10.1017/s0008423923000501",
+   "status": "found",
+   "crossref_title": "Do Household Political Campaign Signs Help Win Vote Share?",
+   "crossref_year": 2023,
+   "crossref_container": "Canadian Journal of Political Science",
+   "year_match": true
+  },
+  {
+   "key": "kalla2018minimal",
+   "doi": "10.1017/s0003055417000363",
+   "status": "found",
+   "crossref_title": "The Minimal Persuasive Effects of Campaign Contact in General Elections: Evidence from 49 Field Experiments",
+   "crossref_year": 2017,
+   "crossref_container": "American Political Science Review",
+   "year_match": false
+  },
+  {
+   "key": "coppock2020small",
+   "doi": "10.1126/sciadv.abc4046",
+   "status": "found",
+   "crossref_title": "The small effects of political advertising are small regardless of context, message, sender, or receiver: Evidence from 59 real-time randomized experiments",
+   "crossref_year": 2020,
+   "crossref_container": "Science Advances",
+   "year_match": true
+  },
+  {
+   "key": "sides2022television",
+   "doi": "10.1017/s000305542100112x",
+   "status": "found",
+   "crossref_title": "The Effect of Television Advertising in United States Elections",
+   "crossref_year": 2021,
+   "crossref_container": "American Political Science Review",
+   "year_match": false
+  },
+  {
+   "key": "spenkuch2018advertising",
+   "doi": "10.1093/qje/qjy010",
+   "status": "found",
+   "crossref_title": "Political Advertising and Election Results*",
+   "crossref_year": 2018,
+   "crossref_container": "The Quarterly Journal of Economics",
+   "year_match": true
+  },
+  {
+   "key": "gerber2011persuasive",
+   "doi": "10.1017/s000305541000047x",
+   "status": "found",
+   "crossref_title": "How Large and Long-lasting Are the Persuasive Effects of Televised Campaign Ads? Results from a Randomized Field Experiment",
+   "crossref_year": 2011,
+   "crossref_container": "American Political Science Review",
+   "year_match": true
+  },
+  {
+   "key": "hill2013forget",
+   "doi": "10.1080/10584609.2013.828143",
+   "status": "found",
+   "crossref_title": "How Quickly We Forget: The Duration of Persuasion Effects From Mass Communication",
+   "crossref_year": 2013,
+   "crossref_container": "Political Communication",
+   "year_match": true
+  },
+  {
+   "key": "dumitrescu2012posters",
+   "doi": "10.1177/1354068810389644",
+   "status": "found",
+   "crossref_title": "The importance of being present",
+   "crossref_year": 2011,
+   "crossref_container": "Party Politics",
+   "year_match": false
+  },
+  {
+   "key": "jager2020persist",
+   "doi": "10.1111/ajps.12488",
+   "status": "found",
+   "crossref_title": "When Do Campaign Effects Persist for Years? Evidence from a Natural Experiment",
+   "crossref_year": 2019,
+   "crossref_container": "American Journal of Political Science",
+   "year_match": false
+  },
+  {
+   "key": "green2024billboards",
+   "doi": "10.1561/100.00022062",
+   "status": "found",
+   "crossref_title": "Do Billboard Advertisements Increase Voter Turnout? A Large-Scale Field Experiment",
+   "crossref_year": 2024,
+   "crossref_container": "Quarterly Journal of Political Science",
+   "year_match": true
+  },
+  {
+   "key": "minkoff2020billboards",
+   "doi": "10.33774/apsa-2020-r22jc",
+   "status": "found",
+   "crossref_title": "The Effect of Billboards on Turnout in 4 States: A Randomized Experiment",
+   "crossref_year": 2020,
+   "crossref_container": "",
+   "year_match": true
+  },
+  {
+   "key": "panagopoulos2009street",
+   "doi": "10.1016/j.electstud.2009.03.001",
+   "status": "found",
+   "crossref_title": "Street fight: The impact of a street sign campaign on voter turnout",
+   "crossref_year": 2009,
+   "crossref_container": "Electoral Studies",
+   "year_match": true
+  },
+  {
+   "key": "claassen2016yardsign",
+   "doi": "10.1007/s11109-015-9313-9",
+   "status": "found",
+   "crossref_title": "Motivated Reasoning and Yard-Sign-Stealing Partisans: Mine is a Likable Rogue, Yours is a Degenerate Criminal",
+   "crossref_year": 2015,
+   "crossref_container": "Political Behavior",
+   "year_match": false
+  },
+  {
+   "key": "makse2019display",
+   "doi": "10.1093/oso/9780190926311.001.0001",
+   "status": "found",
+   "crossref_title": "Politics on Display",
+   "crossref_year": 2019,
+   "crossref_container": "",
+   "year_match": true
+  },
+  {
+   "key": "barnfield2020bandwagon",
+   "doi": "10.1177/1478929919870691",
+   "status": "found",
+   "crossref_title": "Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect",
+   "crossref_year": 2019,
+   "crossref_container": "Political Studies Review",
+   "year_match": false
+  },
+  {
+   "key": "morton2015exitpolls",
+   "doi": "10.1016/j.euroecorev.2015.03.012",
+   "status": "found",
+   "crossref_title": "Exit polls, turnout, and bandwagon voting: Evidence from a natural experiment",
+   "crossref_year": 2015,
+   "crossref_container": "European Economic Review",
+   "year_match": true
+  },
+  {
+   "key": "rothschild2014polls",
+   "doi": "10.1177/2053168014547667",
+   "status": "found",
+   "crossref_title": "Are public opinion polls self-fulfilling prophecies?",
+   "crossref_year": 2014,
+   "crossref_container": "Research &amp; Politics",
+   "year_match": true
+  },
+  {
+   "key": "collier2014votes",
+   "doi": "10.1111/ecoj.12109",
+   "status": "found",
+   "crossref_title": "Votes and Violence: Evidence from a Field Experiment in Nigeria",
+   "crossref_year": 2014,
+   "crossref_container": "The Economic Journal",
+   "year_match": true
+  },
+  {
+   "key": "bratton2008votebuying",
+   "doi": "10.1016/j.electstud.2008.04.013",
+   "status": "found",
+   "crossref_title": "Vote buying and violence in Nigerian election campaigns",
+   "crossref_year": 2008,
+   "crossref_container": "Electoral Studies",
+   "year_match": true
+  },
+  {
+   "key": "gonzalezocantos2020carrots",
+   "doi": "10.1177/0022343319884998",
+   "status": "found",
+   "crossref_title": "Carrots and sticks: Experimental evidence of vote-buying and voter intimidation in Guatemala",
+   "crossref_year": 2019,
+   "crossref_container": "Journal of Peace Research",
+   "year_match": false
+  },
+  {
+   "key": "frye2014machines",
+   "doi": "10.1017/S004388711400001X",
+   "status": "found",
+   "crossref_title": "Political Machines at Work Voter Mobilization and Electoral Subversion in the Workplace",
+   "crossref_year": 2014,
+   "crossref_container": "World Politics",
+   "year_match": true
+  },
+  {
+   "key": "gerber2008social",
+   "doi": "10.1017/S000305540808009X",
+   "status": "found",
+   "crossref_title": "Social Pressure and Voter Turnout: Evidence from a Large-Scale Field Experiment",
+   "crossref_year": 2008,
+   "crossref_container": "American Political Science Review",
+   "year_match": true
+  },
+  {
+   "key": "kam2013name",
+   "doi": "10.1111/ajps.12034",
+   "status": "found",
+   "crossref_title": "Name Recognition and Candidate Support",
+   "crossref_year": 2013,
+   "crossref_container": "American Journal of Political Science",
+   "year_match": true
+  },
+  {
+   "key": "klimek2012statistical",
+   "doi": "10.1073/pnas.1210722109",
+   "status": "found",
+   "crossref_title": "Statistical detection of systematic election irregularities",
+   "crossref_year": 2012,
+   "crossref_container": "Proceedings of the National Academy of Sciences",
+   "year_match": true
+  },
+  {
+   "key": "enikolopov2013field",
+   "doi": "10.1073/pnas.1206770110",
+   "status": "found",
+   "crossref_title": "Field experiment estimate of electoral fraud in Russian parliamentary elections",
+   "crossref_year": 2012,
+   "crossref_container": "Proceedings of the National Academy of Sciences",
+   "year_match": false
+  },
+  {
+   "key": "idrobo2022bolivia",
+   "doi": "10.1086/719639",
+   "status": "found",
+   "crossref_title": "Do Shifts in Late-Counted Votes Signal Fraud? Evidence from Bolivia",
+   "crossref_year": 2022,
+   "crossref_container": "The Journal of Politics",
+   "year_match": true
+  },
+  {
+   "key": "escobari2024late",
+   "doi": "10.1016/j.worlddev.2023.106407",
+   "status": "found",
+   "crossref_title": "Late-Arriving Votes and Electoral Fraud: A Natural Experiment and Regression Discontinuity Evidence from Bolivia",
+   "crossref_year": 2024,
+   "crossref_container": "World Development",
+   "year_match": true
+  },
+  {
+   "key": "eggers2021noevidence",
+   "doi": "10.1073/pnas.2103619118",
+   "status": "found",
+   "crossref_title": "No evidence for systematic voter fraud: A guide to statistical claims about the 2020 election",
+   "crossref_year": 2021,
+   "crossref_container": "Proceedings of the National Academy of Sciences",
+   "year_match": true
+  },
+  {
+   "key": "williams2020bolivia",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "oas2019bolivia",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "neuwirth2016austria",
+   "doi": "10.17713/ajs.v45i3.596",
+   "status": "found",
+   "crossref_title": "Some Statistics concerning the Austrian Presidential Election 2016",
+   "crossref_year": 2016,
+   "crossref_container": "Austrian Journal of Statistics",
+   "year_match": true
+  },
+  {
+   "key": "bverfg2023berlin",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "balinski2001fair",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "pukelsheim2017proportional",
+   "doi": "10.1007/978-3-319-64707-4",
+   "status": "found",
+   "crossref_title": "Proportional Representation",
+   "crossref_year": 2017,
+   "crossref_container": "",
+   "year_match": true
+  },
+  {
+   "key": "gallagher1991proportionality",
+   "doi": "10.1016/0261-3794(91)90004-C",
+   "status": "found",
+   "crossref_title": "Proportionality, disproportionality and electoral systems",
+   "crossref_year": 1991,
+   "crossref_container": "Electoral Studies",
+   "year_match": true
+  },
+  {
+   "key": "knesset1969elections",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "knesset1958basic",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "knesset1959propaganda",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "cec2026results",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "cec2022results",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "cbs2024localities",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "lurie2015reform",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "shapira2026safeguarding",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "haaretz2026lod",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "haaretz2026raam",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "bokra2026fakereporter",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "bokra2026raam",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "oren2026surplus",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "inn2026final",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "knessettv2026surplus",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "neeman2026software",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "italy1956propaganda",
+   "doi": null,
+   "status": "no_doi"
+  },
+  {
+   "key": "bwahlg_s32",
+   "doi": null,
+   "status": "no_doi"
+  }
+ ]
+}
