@@ -5,7 +5,7 @@ of Outdoor Campaign Advertising, Israel 2026* — an article edited by Raveh Nee
 DOI of this package to be assigned at the time of deposit.
 
 Public repository of this package: https://github.com/ravehn/seats-at-stake-israel-2026 (the same files; releases are tagged). Built from the author's private
-working repository, package version 0.0.99-dev, results generated 2026-11-02T07:15:44+00:00.
+working repository, package version 0.0.102-dev, results generated 2026-11-02T07:37:32+00:00.
 Data version of the build: CEC station file `expb_20261030T121730Z.csv` (snapshot 20261030T121730Z, SHA-256 `858b87d94c409759ea6ab2d22cc1c61fc9ff8bf3b77be669ba83e498c2cea021`),
 2022 station file `cc223336-07bc-485d-b160-62df92967c0a.csv` (SHA-256 `07c71db1bf844d40cbc4d96c606550f2ada3c9f258287d08679180d0b9a413bc`), CBS localities file `bycode2024_idi_mirror.xlsx` (SHA-256
 `de33d0ef836051a8769afa202b43df999114053001bce46164bf5a6976ea5dc1`), code fingerprint `99eb536be2d66f030ece7516cb56f7e43efa9c3b2141b187552dd8904199235d`. `MANIFEST.json` lists the SHA-256 of every file here: the

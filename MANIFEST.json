@@ -1,6 +1,6 @@
 {
  "package": "seats-at-stake-israel-2026",
- "version": "0.0.101-dev",
+ "version": "0.0.102-dev",
  "line_endings": "LF for text files; data/raw/** and *.csv byte-exact as downloaded or written",
  "files": {
   ".gitattributes": {
@@ -160,52 +160,52 @@
    "bytes": 496667
   },
   "docs/article/figures/fig1_coverage.png": {
-   "sha256": "c4cd2c86e83508acb800996965004e1c957732854b4321f7ae8981ed0e16d90c",
-   "bytes": 143613
+   "sha256": "532dde3a982f993934cc305bf9b409f1489f485194fdcac1b1ac89a7925d857a",
+   "bytes": 143633
   },
   "docs/article/figures/fig1_coverage.svg": {
-   "sha256": "0b335ae31875f9d5affb8696612f693d3fec8805d34e776bc5b52e7a96c19b5b",
-   "bytes": 99473
+   "sha256": "1321e6cb1a1ca4411caee9fa891f2e31cb3d492566d8ec714e85eb33baab972c",
+   "bytes": 99550
   },
   "docs/article/figures/fig2_step_curves.png": {
-   "sha256": "2ceecb42f48bb4d465e14f2593ab703581e47af8b53cb49b24c6fb3e19d20558",
-   "bytes": 141091
+   "sha256": "da30857fa4f3ae97434d547fc921f7f2a8a70fbdbe9a0a4da71dbbcffab65893",
+   "bytes": 141106
   },
   "docs/article/figures/fig2_step_curves.svg": {
-   "sha256": "95c5c259e4591302230e632914b3b33b347b304b18bc92b207634d915496ef62",
-   "bytes": 114753
+   "sha256": "52ddfe279064a08652486bd25e59f8d5612d7c4435d8fe8a10599fef713fa29a",
+   "bytes": 114830
   },
   "docs/article/figures/fig3_monte_carlo.png": {
-   "sha256": "54ae8df46fc7fd27f20835c7e80b413b0e22f258ccf44832d5b5f3a91b24f2e5",
-   "bytes": 78008
+   "sha256": "f3d3571cb57e192ff6256249decfeb880e5262e0afe7358c5036adab9101cac7",
+   "bytes": 78022
   },
   "docs/article/figures/fig3_monte_carlo.svg": {
-   "sha256": "47f5f566521fd0730ce004ef248be717ab1a5f647e4e185a2fdf36abaa2e1753",
-   "bytes": 64967
+   "sha256": "6586da5139cdaac4896d3fd686c223077927531a38fcb916bebd96527188b671",
+   "bytes": 65044
   },
   "docs/article/figures/fig4_sensitivity.png": {
-   "sha256": "3f260fa776870fe7272521d4c395339bb1cfa3afd95bf6435bf2c1ff90bfd319",
-   "bytes": 93835
+   "sha256": "d8d4e938f7847c8f09e4654da52eae231c656f7f76241b5a20c3657e379c1ca7",
+   "bytes": 93854
   },
   "docs/article/figures/fig4_sensitivity.svg": {
-   "sha256": "acca6cfdbcdd385f2705ae3947273f41661efb59dab603a7f0e79dd287266a85",
-   "bytes": 79328
+   "sha256": "16c654e04187da705657e4095ec4d9bcb41ad39ad6f43f7ea2baaa6a8f037fef",
+   "bytes": 79405
   },
   "docs/article/figures/fig5_coverage_scaling.png": {
-   "sha256": "0d8dc6d9ac07e5a17a3708c84f6e114d29bcc0245a46fc11535b5deeb0c144ef",
-   "bytes": 112514
+   "sha256": "57f83356cdb8cf6209fcd88ab9047495764164c0f7eee162bd5503359826c7c1",
+   "bytes": 112526
   },
   "docs/article/figures/fig5_coverage_scaling.svg": {
-   "sha256": "006649188086a505fec30badf2564eab47908df78a4f7081ba183fe09ba92453",
-   "bytes": 80461
+   "sha256": "98785d647a0b91374d0c154078a0fc7639a222d043555a9a44394169597c1818",
+   "bytes": 80538
   },
   "docs/article/itinerary_sources_k26.csv": {
    "sha256": "2a4850048600c1d11a5db3cc931a1d1ae70171582c6cba9243ba79ae0188d9c7",
    "bytes": 10825
   },
   "docs/article/references.bib": {
-   "sha256": "44bb3ae6a02332417d70cc4f0311587f9269e652c06474bf7583b176e24a1d8c",
-   "bytes": 23534
+   "sha256": "f95953efa9731b18793d2df8309ff600f4f1003f349c25c4f8de11e4f4aaa732",
+   "bytes": 23575
   },
   "docs/article/references_check.json": {
    "sha256": "9a83e32a9fa32caa5c66a1d78e6a8f6d770e3dbc81f591a15cc9294bc92e1c35",
@@ -216,16 +216,16 @@
    "bytes": 18933
   },
   "docs/article/results.json": {
-   "sha256": "eb3e5e9b27ec3fc68e98857f1ca17e9642b12801c3c493cffcc56d6d7cfaddaf",
-   "bytes": 293732
+   "sha256": "99aba6657f922eb5abf3f359c57d264144abc2ab4c710a27a39cecacc1c1f2d0",
+   "bytes": 293733
   },
   "docs/article/seat-estimate-k26.md": {
-   "sha256": "503a1ffbfa1dacaa217951a29be40d81750b3f9bed8c17181a077fd604728e03",
-   "bytes": 115896
+   "sha256": "d1d46033a66a4682f1f8904b5d60ac12d3fc47ae4a3ad353a529a4a3e6d7c125",
+   "bytes": 115905
   },
   "docs/article/seat-estimate-k26.pdf": {
-   "sha256": "d9d77520533d33433e637330b8c35395f0292c79fb3afe02da3c4d8e48ff2bed",
-   "bytes": 3453532
+   "sha256": "3ba4d791b64581cdffdf4dce6cbd407eaa7813548ce914d72df20c2a5063a6cf",
+   "bytes": 3453500
   },
   "docs/article/seat-estimate-k26.template.md": {
    "sha256": "2c2479a35fe917889438046dd30915337b9a7f814f436f36661a426e9b4c91d2",
@@ -288,11 +288,11 @@
    "bytes": 292675
   },
   "pyproject.toml": {
-   "sha256": "a56acafc475ab962a5935e71780d028c4d27ad0b595e9e3c9544bf7048952e66",
-   "bytes": 1661
+   "sha256": "557d9480d06006c5a890c8d6f5beb048f11044bdca712d0a46792b97ce971035",
+   "bytes": 1745
   },
   "src/electionforensics/__init__.py": {
-   "sha256": "5e3a37841e04b2e7fd0f4e6836c7545d835f33a73c67686f0cf7351c99c0eff2",
+   "sha256": "e918cab1f3011179dff92a46bddb1bd802878dcc1ee306c519d50b368318134e",
    "bytes": 28
   },
   "src/electionforensics/battery/__init__.py": {
@@ -632,8 +632,8 @@
    "bytes": 415409
   },
   "README.md": {
-   "sha256": "d68fd16945bf11c3c5923e4f6cf1b65eb05514331b89389625785b2a101631a2",
-   "bytes": 6057
+   "sha256": "550da1b2313be2ee93916f2b55370c696a900728f460f34a6746df8965238f86",
+   "bytes": 6058
   }
  }
 }

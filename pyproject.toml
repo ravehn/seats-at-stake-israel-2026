@@ -37,6 +37,9 @@ dev = [
 [project.scripts]
 ef = "electionforensics.cli:app"
 
+[project.urls]
+Repository = "https://github.com/ravehn/seats-at-stake-israel-2026"
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"

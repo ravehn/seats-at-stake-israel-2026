@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-02T07:15:44+00:00",
- "package_version": "0.0.99-dev",
+ "generated_at": "2026-11-02T07:37:32+00:00",
+ "package_version": "0.0.102-dev",
  "code_sha256": "99eb536be2d66f030ece7516cb56f7e43efa9c3b2141b187552dd8904199235d",
  "data": {
   "current": {
@@ -16,7 +16,7 @@
    "localities": 1224,
    "eligible_voters": 7331981,
    "voters_regular": 5264685,
-   "latest_snapshot_on_disk": "expb_20261101T144729Z.csv",
+   "latest_snapshot_on_disk": "expb_20261102T071730Z.csv",
    "is_latest": false
   },
   "previous": {
