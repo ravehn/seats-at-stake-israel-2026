@@ -255,23 +255,52 @@ LF_SUFFIXES = TEXT_SUFFIXES | {".csl"}
 LF_NAMES = frozenset({"LICENSE", ".gitattributes"})
 
 
-def package_bytes(f: Path) -> bytes:
+def normalize_bytes(rel: str, data: bytes) -> bytes:
     """The bytes a file takes in the package: byte-exact for the archived data and the CSV tables, LF line endings for
     every other text file, so that the manifest hashes hold on any platform's checkout of the package repository
     (a Windows working copy with `core.autocrlf` shows CRLF; compare against `git show HEAD:<path>` or the zip)."""
-    data = f.read_bytes()
-    rel = _rel(f)
     if rel.startswith(EXACT_PREFIXES) or rel.endswith(EXACT_SUFFIXES):
         return data
-    if f.suffix.lower() in LF_SUFFIXES or f.name in LF_NAMES:
+    name = rel.rsplit("/", 1)[-1]
+    if Path(name).suffix.lower() in LF_SUFFIXES or name in LF_NAMES:
         return data.replace(b"\r\n", b"\n")
     return data
 
 
-def package_contents(files: list[Path]) -> dict[str, bytes]:
-    """Published path → bytes, for every file of the package plus the generated README (the zip and the public
-    repository are both written from this)."""
-    return {_rel(f): package_bytes(f) for f in files} | {"README.md": package_readme().encode("utf-8")}
+def package_bytes(f: Path) -> bytes:
+    """`normalize_bytes` of a file of the working copy."""
+    return normalize_bytes(_rel(f), f.read_bytes())
+
+
+def committed_bytes(files: list[Path], ref: str = "HEAD") -> dict[str, bytes]:
+    """Published path → bytes of the files as committed at `ref` (`git archive`), normalised like the working-copy ones:
+    what the public repository is filled from, so that a locked or edited working copy never leaks in."""
+    import io
+    import tarfile
+
+    git = shutil.which("git")
+    if git is None:
+        raise RuntimeError("git is needed to read the committed tree")
+    rels = [_rel(f) for f in files]
+    out = subprocess.run([git, "-C", str(ROOT), "archive", "--format=tar", ref, "--", *rels], capture_output=True, check=True)  # noqa: S603
+    data: dict[str, bytes] = {}
+    with tarfile.open(fileobj=io.BytesIO(out.stdout), mode="r:") as tar:
+        for member in tar.getmembers():
+            if member.isfile():
+                fh = tar.extractfile(member)
+                if fh is not None:
+                    data[member.name] = normalize_bytes(member.name, fh.read())
+    missing = [r for r in rels if r not in data]
+    if missing:
+        raise RuntimeError(f"not committed at {ref}: {missing[:5]}{' …' if len(missing) > 5 else ''}")
+    return data
+
+
+def package_contents(files: list[Path], committed: str | None = None) -> dict[str, bytes]:
+    """Published path → bytes, for every file of the package plus the generated README: from the working copy (the
+    zip), or, with `committed` set to a ref, from the committed tree (the public repository)."""
+    body = committed_bytes(files, committed) if committed else {_rel(f): package_bytes(f) for f in files}
+    return body | {"README.md": package_readme().encode("utf-8")}
 
 
 def package_manifest(contents: dict[str, bytes], name: str, built_at: bool = True) -> str:
