@@ -1,0 +1,15 @@
+{
+  "title": "Seats at Stake: A Conditional Estimate of the Knesset Seats Movable by a One-Sided Replacement of Outdoor Campaign Advertising, Israel 2026 — article and replication package",
+  "upload_type": "software",
+  "description": "<p>Article (PDF and Markdown) with its complete replication package: the code, the archived official station-level results of the Central Elections Committee for the 25th and 26th Knesset with their SHA-256 checksums, the Central Bureau of Statistics localities file, the machine-readable results, every table and figure, the single-file reference implementation of every operation, the test suite, the press-sourced table of the prime minister's campaign itinerary, and the public summary of case file No. 1 with its twenty-three photographs published in full.</p><p>The article asks a conditional question: had the replacement of the opposition's outdoor advertising by Likud's, documented at polling sites in one Israeli town on the night before the election of 27 October 2026, been applied wherever Likud's presence is not marginally low, how many of the 120 Knesset seats could it have moved? It removes a posited effect from Likud in the covered localities, returns the votes to the change-bloc lists and re-runs the Bader–Ofer allocation exactly; the central scenario, the range of the effect and three distributions over it are reported. The article does not establish that the replacement occurred anywhere but in that town and makes no finding as to who removed or hung anything.</p><p>Edited by Raveh Neeman (independent researcher); the text, the code and the computations were drafted by an AI coding assistant under the editor's direction, as the article discloses. Code: MIT licence (LICENSE); the archived data are public records of the Central Elections Committee and the Central Bureau of Statistics, reproduced byte-exact. The public repository holds exactly this package; every file named in the article links to it. Reproduce: <code>uv sync --extra dev</code>, <code>uv run ef seats build</code> (Appendix D of the article).</p>",
+  "creators": [
+    {"name": "Neeman, Raveh", "affiliation": "Independent researcher"}
+  ],
+  "keywords": ["Israel", "Knesset", "Bader–Ofer", "seat allocation", "outdoor advertising", "election posters", "counterfactual", "electoral integrity", "replication package"],
+  "language": "eng",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "related_identifiers": [
+    {"identifier": "https://github.com/ravehn/seats-at-stake-israel-2026", "relation": "isSupplementTo", "scheme": "url"}
+  ]
+}

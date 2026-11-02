@@ -40,7 +40,7 @@ from electionforensics.seats.article import REPO_URL as PUBLIC_REPO  # noqa: E40
 ARTICLE_DIR = ROOT / "docs" / "article"
 #: Files and directories that go in whatever the results say (directories recursively, code and text only).
 ALWAYS: tuple[str, ...] = (
-    "pyproject.toml", "uv.lock", "LICENSE", ".gitattributes",
+    "pyproject.toml", "uv.lock", "LICENSE", ".gitattributes", ".zenodo.json",
     "src/electionforensics",
     "taxonomy/parties.yaml", "taxonomy/blocs.yaml", "taxonomy/surplus_agreements.yaml", "taxonomy/druze_localities.yaml",
     "tests/__init__.py", "tests/conftest.py", "tests/test_seats.py", "tests/test_reference_implementation.py",
@@ -62,6 +62,8 @@ TEXT_SUFFIXES = frozenset({".py", ".md", ".bib", ".json", ".csv", ".yaml", ".yml
 #: Built-in scan rules (name, regex) applied to every text file; the private rules file adds the author's own.
 EMAIL = re.compile(r"[A-Za-z0-9._%+-]+@(?!(?:[A-Za-z0-9-]+\.)*(?:github\.com|anthropic\.com)(?![A-Za-z0-9-]))"
                    r"[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}")
+#: Matches the scan lets through: the article's correspondence address (the author's decision of 2 November 2026).
+ALLOWED_MATCHES = frozenset({"raveh.neeman@gmail.com"})
 BUILTIN_RULES: tuple[tuple[str, re.Pattern[str]], ...] = (
     ("email", EMAIL),
     ("chat_link", re.compile(r"claude\.ai/(?:cowork|chat|code|project)")),
@@ -160,6 +162,8 @@ def scan(files: list[Path], rules: list[tuple[str, re.Pattern[str]]] | None = No
             continue
         for name, rx in all_rules:
             for m in rx.finditer(text):
+                if m.group(0) in ALLOWED_MATCHES:
+                    continue
                 line_start = text.rfind("\n", 0, m.start()) + 1
                 line_end = text.find("\n", m.end())
                 excerpt = text[line_start: line_end if line_end >= 0 else None].strip()
@@ -212,7 +216,8 @@ checkout with `core.autocrlf` shows CRLF; compare against `git show HEAD:<path>`
   of the package with the reference implementation on every number of the article (Appendix F) and the checks of the
   itinerary table and of the threshold it sets.
 - `tools/verify_bib.py` (Crossref check of the bibliography) and `tools/build_replication_package.py` (how this package
-  was assembled from the project repository: allow-list, forbidden paths, leak scan).
+  was assembled from the project repository: allow-list, forbidden paths, leak scan); `.zenodo.json` — the metadata of
+  the Zenodo record made from a release of the public repository.
 
 ## Reproduce
 
@@ -282,7 +287,9 @@ def committed_bytes(files: list[Path], ref: str = "HEAD") -> dict[str, bytes]:
     if git is None:
         raise RuntimeError("git is needed to read the committed tree")
     rels = [_rel(f) for f in files]
-    out = subprocess.run([git, "-C", str(ROOT), "archive", "--format=tar", ref, "--", *rels], capture_output=True, check=True)  # noqa: S603
+    out = subprocess.run([git, "-C", str(ROOT), "archive", "--format=tar", ref, "--", *rels], capture_output=True)  # noqa: S603
+    if out.returncode != 0:
+        raise RuntimeError(f"git archive {ref} failed — a package file is not committed? {out.stderr.decode('utf-8', 'replace').strip()[:300]}")
     data: dict[str, bytes] = {}
     with tarfile.open(fileobj=io.BytesIO(out.stdout), mode="r:") as tar:
         for member in tar.getmembers():
