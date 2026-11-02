@@ -1,6 +1,6 @@
 {
  "package": "seats-at-stake-israel-2026",
- "version": "1.0.0",
+ "version": "1.0.1-dev",
  "line_endings": "LF for text files; data/raw/** and *.csv byte-exact as downloaded or written",
  "files": {
   ".gitattributes": {
@@ -164,52 +164,52 @@
    "bytes": 496667
   },
   "docs/article/figures/fig1_coverage.png": {
-   "sha256": "08e3659fa8b44eb00ac91df1c56538852920b85a01edd2c9a58f9ab2dee71c59",
-   "bytes": 142975
+   "sha256": "95f9e2baad5eea12dfb0c72c7e818ce858f49b0dbad4c5dcb6ca4c420a65256c",
+   "bytes": 143363
   },
   "docs/article/figures/fig1_coverage.svg": {
-   "sha256": "e1056d17591f3ad3cd8caca9dfaf84434f7f5707cfb89f162a4cbf22eb52840f",
-   "bytes": 99090
+   "sha256": "feb59fc7180f2fad6bf9f738afd52992e94b3b11d4199e40085a38e921e2d29c",
+   "bytes": 99396
   },
   "docs/article/figures/fig2_step_curves.png": {
-   "sha256": "33657dbd26c60acd85275eb38d0bee034f189f81a648b7f34823a86390aeb7fd",
-   "bytes": 140480
+   "sha256": "a6d51fa3804e79be34088034ead6c23f3776e11fa8844fbe93d5f02fedff99d3",
+   "bytes": 140878
   },
   "docs/article/figures/fig2_step_curves.svg": {
-   "sha256": "161076257b77e235c6dc85ee9b5fd76b06445ab4f2f319aa9c4e73a17adf8ff7",
-   "bytes": 114370
+   "sha256": "1994e1cc117c28cd9be1946afc9fe12a2e8cc903ebdc3e96f01d4d3aecab9e14",
+   "bytes": 114676
   },
   "docs/article/figures/fig3_monte_carlo.png": {
-   "sha256": "0187c944e1f90c9fd41e95298ef856efebb96bbcb8b499e804fb8e31c782d0ab",
-   "bytes": 77334
+   "sha256": "34eb0ca144daec1a14f03b0aa0d2f2563a87cdb9ecdbe59ce479527704eb870f",
+   "bytes": 77765
   },
   "docs/article/figures/fig3_monte_carlo.svg": {
-   "sha256": "5edf972b95ecd1667d455ffe900681f173635ebb47c8b5224643e29f0f9224f8",
-   "bytes": 64584
+   "sha256": "df6154055e88c701aeadc53d475bf86796ec4e4abb0c9747472c9f7231193cd6",
+   "bytes": 64890
   },
   "docs/article/figures/fig4_sensitivity.png": {
-   "sha256": "b430dce6ab4dcbb2d9cf089d80e5ec6dc34b12c153a8b40d48c53d689f0d91e8",
-   "bytes": 93227
+   "sha256": "4bb3a4b67205f7a9a3282bf30aa22ae81778a8974be8a79b00be86eeac8f07d3",
+   "bytes": 93612
   },
   "docs/article/figures/fig4_sensitivity.svg": {
-   "sha256": "2a73d94b4672e69fdbfbe68d9331dffd19ade4b3c260f634e18c3e7b4f3c4c9c",
-   "bytes": 78945
+   "sha256": "66c326068a2f94821174e701c0785f6714b98805e998d0b49cdd0a67343fb068",
+   "bytes": 79251
   },
   "docs/article/figures/fig5_coverage_scaling.png": {
-   "sha256": "c7294d1ce75e8be6416a76b878416032bd4b5df20521eb58083197c5f0312926",
-   "bytes": 111873
+   "sha256": "a0fa7e46c7ef5aaf51c5bb7e618f8cc013d65d66e5737e90886acaf5c6a73b98",
+   "bytes": 112284
   },
   "docs/article/figures/fig5_coverage_scaling.svg": {
-   "sha256": "04812b5cc7e7061fe1cae88bf47819fdfe42cc42602b48aba7232f0bc5aaf7bb",
-   "bytes": 80078
+   "sha256": "9bfae511617c176cbe0193cb5a1a203329011f538420ef701c46830c7c993886",
+   "bytes": 80384
   },
   "docs/article/itinerary_sources_k26.csv": {
    "sha256": "2a4850048600c1d11a5db3cc931a1d1ae70171582c6cba9243ba79ae0188d9c7",
    "bytes": 10825
   },
   "docs/article/references.bib": {
-   "sha256": "f95953efa9731b18793d2df8309ff600f4f1003f349c25c4f8de11e4f4aaa732",
-   "bytes": 23575
+   "sha256": "1820b1ec3ea069b19a25bf8d161d3fcd39300a09ac2a7fbf07f27df9b38f6fdf",
+   "bytes": 23707
   },
   "docs/article/references_check.json": {
    "sha256": "9a83e32a9fa32caa5c66a1d78e6a8f6d770e3dbc81f591a15cc9294bc92e1c35",
@@ -220,20 +220,20 @@
    "bytes": 18933
   },
   "docs/article/results.json": {
-   "sha256": "b593b17e8531f8619ae09c11a53451ebc29503932a2ed729e8b8c8132a204092",
-   "bytes": 293727
+   "sha256": "11e5e6be7a87be05318ac8c3bd7917a0be595e34d2e8b78ccb6096313da8d5b7",
+   "bytes": 293731
   },
   "docs/article/seat-estimate-k26.md": {
-   "sha256": "42f18c82d3df2b2635a32692ba6663a90a64dc62b861d1132e7f689191cb5211",
-   "bytes": 115967
+   "sha256": "697bd169be59ec60b4f0051ed178d4b30d55538776f5390ae56e16632d4e2a53",
+   "bytes": 116124
   },
   "docs/article/seat-estimate-k26.pdf": {
-   "sha256": "5c97085f94aa014830a3ae204859109f77fb78bf999b5b8e1046090c619fff63",
-   "bytes": 3453921
+   "sha256": "78196c8465fdecda9dd8f5a3e5888a01dd6b71b705724c0401df773fa1f57300",
+   "bytes": 3455005
   },
   "docs/article/seat-estimate-k26.template.md": {
-   "sha256": "3f009e53afe1c45db9f2e7713d286ae742bca6139a839ef71c7bf29a2290adce",
-   "bytes": 73561
+   "sha256": "358f66e2d1cc11edeb64c18b39a15b605bc0159b3d849277f615645e0eb96e0a",
+   "bytes": 73845
   },
   "docs/article/tables/breakpoints.csv": {
    "sha256": "3fbea7adc50dcbb7d7b53c72c5de775765b0c5ddd9efd1e3598d5f8980856dca",
@@ -296,8 +296,8 @@
    "bytes": 1745
   },
   "src/electionforensics/__init__.py": {
-   "sha256": "27e8febb48ada44153ea2add9969a2c50a9831a74d9755fdd53c549a888b1cc2",
-   "bytes": 22
+   "sha256": "25f4105592cc0cb63929320609848ada47558b2a0fe9c6edf5f11cc4e390672f",
+   "bytes": 26
   },
   "src/electionforensics/battery/__init__.py": {
    "sha256": "6096091ed7b620370963f1b015f6db264185369ebfcb4b1ddf9016a12e2c13b1",
@@ -624,8 +624,8 @@
    "bytes": 16348
   },
   "tools/build_replication_package.py": {
-   "sha256": "908d85a4a7b3e2bf4a913086d5ae4b3ec685f3a5e105da36bcc56f250c2bf10a",
-   "bytes": 20667
+   "sha256": "64bfae518f06a1907be61b618b91f5925d12fda78420044b70cf3b8520f6c769",
+   "bytes": 20903
   },
   "tools/verify_bib.py": {
    "sha256": "c506cc251e11b4f4c6a106fdc133096499cff46ddf7f35a9c5e62ac6f9230f6e",
@@ -636,8 +636,8 @@
    "bytes": 415409
   },
   "README.md": {
-   "sha256": "f87bf8d2d97c74197517a740099f0e6960bef1ab928ed7fe823f5ebc0c4bbb2a",
-   "bytes": 6153
+   "sha256": "fc81ab38eb15b95273ef64fff46ffe565c14963bcb38827286e7472e198f4501",
+   "bytes": 6393
   }
  }
 }

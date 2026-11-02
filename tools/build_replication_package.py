@@ -179,10 +179,12 @@ def package_readme(results_path: Path = ARTICLE_DIR / "results.json") -> str:
 
 Replication package of: *Seats at Stake: A Conditional Estimate of the Knesset Seats Movable by a One-Sided Replacement
 of Outdoor Campaign Advertising, Israel 2026* — an article edited by Raveh Neeman (independent researcher);
-DOI of this package to be assigned at the time of deposit.
+Deposited at Zenodo: https://doi.org/10.5281/zenodo.23879734 (all versions).
 
-Public repository of this package: {PUBLIC_REPO} (the same files; releases are tagged). Built from the author's private
-working repository, package version {r["package_version"]}, results generated {r["generated_at"]}.
+Public repository of this package: {PUBLIC_REPO} (the same files; releases are tagged). Zenodo: DOI
+[10.5281/zenodo.23879734](https://doi.org/10.5281/zenodo.23879734) for all versions (each release has its own DOI on the record; v1.0.0:
+[10.5281/zenodo.23879735](https://doi.org/10.5281/zenodo.23879735)). Built from the author's private working repository, package version
+{r["package_version"]}, results generated {r["generated_at"]}.
 Data version of the build: CEC station file `{cur["file"]}` (snapshot {cur["snapshot_ts"]}, SHA-256 `{cur["sha256"]}`),
 2022 station file `{prev["file"]}` (SHA-256 `{prev["sha256"]}`), CBS localities file `{cbs["file"]}` (SHA-256
 `{cbs["sha256"]}`), code fingerprint `{r["code_sha256"]}`. `MANIFEST.json` lists the SHA-256 of every file here: the
