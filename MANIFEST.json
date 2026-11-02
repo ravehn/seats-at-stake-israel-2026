@@ -1,6 +1,6 @@
 {
  "package": "seats-at-stake-israel-2026",
- "version": "0.0.99-dev",
+ "version": "0.0.100-dev",
  "line_endings": "LF for text files; data/raw/** and *.csv byte-exact as downloaded or written",
  "files": {
   ".gitattributes": {
@@ -292,8 +292,8 @@
    "bytes": 1661
   },
   "src/electionforensics/__init__.py": {
-   "sha256": "49fc18a40b9b634ee900068a580924dff41cce301e5ebad77139f985c9b20ac7",
-   "bytes": 27
+   "sha256": "32d5fab1a1455e1b9341bf2902f3eb2d908e49e799e9b3b50943bf2b53e08e29",
+   "bytes": 28
   },
   "src/electionforensics/battery/__init__.py": {
    "sha256": "6096091ed7b620370963f1b015f6db264185369ebfcb4b1ddf9016a12e2c13b1",
