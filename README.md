@@ -12,10 +12,10 @@ show «Unable to render code block»; the file itself is intact — use the link
 Public repository of this package: https://github.com/ravehn/seats-at-stake-israel-2026 (the same files; releases are tagged). Zenodo: DOI
 [10.5281/zenodo.23879734](https://doi.org/10.5281/zenodo.23879734) for all versions (each release has its own DOI on the record; v1.0.0:
 [10.5281/zenodo.23879735](https://doi.org/10.5281/zenodo.23879735)). Built from the author's private working repository, package version
-1.0.3, results generated 2026-11-02T09:22:51+00:00.
+1.0.4-dev, results generated 2026-11-03T13:14:51+00:00.
 Data version of the build: CEC station file `expb_20261030T121730Z.csv` (snapshot 20261030T121730Z, SHA-256 `858b87d94c409759ea6ab2d22cc1c61fc9ff8bf3b77be669ba83e498c2cea021`),
 2022 station file `cc223336-07bc-485d-b160-62df92967c0a.csv` (SHA-256 `07c71db1bf844d40cbc4d96c606550f2ada3c9f258287d08679180d0b9a413bc`), CBS localities file `bycode2024_idi_mirror.xlsx` (SHA-256
-`de33d0ef836051a8769afa202b43df999114053001bce46164bf5a6976ea5dc1`), code fingerprint `99eb536be2d66f030ece7516cb56f7e43efa9c3b2141b187552dd8904199235d`. `MANIFEST.json` lists the SHA-256 of every file here: the
+`de33d0ef836051a8769afa202b43df999114053001bce46164bf5a6976ea5dc1`), code fingerprint `67b801fc5cb04b8a66c069d4e25880580a798072bde542164ebed746ff472291`. `MANIFEST.json` lists the SHA-256 of every file here: the
 archived data under `data/raw/` and every CSV table byte-exact, the other text files with LF line endings (a Windows
 checkout with `core.autocrlf` shows CRLF; compare against `git show HEAD:<path>` or against the zip).
 

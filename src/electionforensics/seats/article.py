@@ -181,10 +181,11 @@ def case_sheets(photos: list[dict[str, str]]) -> list[dict[str, Any]]:
             for i in range(0, len(photos), per)]
 
 
-def build_contact_sheets(case_dir: Path, tile: int = 800, label: int = 56, pad: int = 24) -> list[Path]:
+def build_contact_sheets(case_dir: Path, tile: int = 560, label: int = 44, pad: int = 20) -> list[Path]:
     """Render the contact sheets of Appendix H from the published originals: every photograph in its displayed
     orientation, fitted into a square tile, with its number and EXIF capture time under it. Renderings for the
-    document only; the files themselves are the evidence and are untouched."""
+    document only; the files themselves are the evidence and are untouched. Kept small (≈ 1 MB of images in the PDF):
+    GitHub's inline PDF preview times out on a heavier file (3 November 2026)."""
     from PIL import Image, ImageDraw, ImageFont, ImageOps
 
     photos = case_photos(case_dir / "manifest.csv")
@@ -210,12 +211,12 @@ def build_contact_sheets(case_dir: Path, tile: int = 800, label: int = 56, pad: 
             stamp = p["taken_at"][5:16].replace("T", " ").replace("-", ".")
             draw.text((x0, y0 + tile + 8), f"No. {p['no']}   {stamp}", fill="black", font=font)
         path = out_dir / sheet["file"]
-        canvas.save(path, "JPEG", quality=82, optimize=True)
+        canvas.save(path, "JPEG", quality=68, optimize=True)
         written.append(path)
     # the evidentiary pair: the last photograph of the posters in place at one site and the bare gate afterwards
     by_no = {int(p["no"]): p for p in photos}
     if all(n in by_no for n in PAIR):
-        tile_w = 1200
+        tile_w = 900
         canvas = Image.new("RGB", (2 * tile_w + 3 * pad, tile_w + label + 2 * pad), "white")
         draw = ImageDraw.Draw(canvas)
         for k, n in enumerate(PAIR):
@@ -229,7 +230,7 @@ def build_contact_sheets(case_dir: Path, tile: int = 800, label: int = 56, pad: 
             stamp = by_no[n]["taken_at"][5:16].replace("T", " ").replace("-", ".")
             draw.text((x0, pad + tile_w + 8), f"No. {n}   {stamp}", fill="black", font=font)
         path = out_dir / "pair.jpg"
-        canvas.save(path, "JPEG", quality=84, optimize=True)
+        canvas.save(path, "JPEG", quality=72, optimize=True)
         written.append(path)
     for stray in out_dir.glob("*.jpg"):
         if stray not in written:
