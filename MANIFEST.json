@@ -1,6 +1,6 @@
 {
  "package": "seats-at-stake-israel-2026",
- "version": "1.0.3",
+ "version": "1.0.4-dev",
  "line_endings": "LF for text files; data/raw/** and *.csv byte-exact as downloaded or written",
  "files": {
   ".gitattributes": {
@@ -296,8 +296,8 @@
    "bytes": 1745
   },
   "src/electionforensics/__init__.py": {
-   "sha256": "da997374411bdb814b8c4d88d97c8105c2443d858771c34be1282d2c2ffa7ab8",
-   "bytes": 22
+   "sha256": "a0d0c04a70cd4307c054c38142e929f3c721dd5ef2d447f9a722a2c7e2c0d8f2",
+   "bytes": 26
   },
   "src/electionforensics/battery/__init__.py": {
    "sha256": "6096091ed7b620370963f1b015f6db264185369ebfcb4b1ddf9016a12e2c13b1",
@@ -624,8 +624,8 @@
    "bytes": 16348
   },
   "tools/build_replication_package.py": {
-   "sha256": "64bfae518f06a1907be61b618b91f5925d12fda78420044b70cf3b8520f6c769",
-   "bytes": 20903
+   "sha256": "95127f1279e55c6f7c0e56f9229e1a1382dd13dcafda59935c8a98f4ef5d1209",
+   "bytes": 21404
   },
   "tools/verify_bib.py": {
    "sha256": "c506cc251e11b4f4c6a106fdc133096499cff46ddf7f35a9c5e62ac6f9230f6e",
@@ -636,8 +636,8 @@
    "bytes": 415409
   },
   "README.md": {
-   "sha256": "878dc6a48b45556dafce9f480b97debe5f88b6a63811772387ca195ab15f76f9",
-   "bytes": 6389
+   "sha256": "9767c1233babcd37ea9f0dd8729ee4100cd01583220a4001dad637668247f34f",
+   "bytes": 6890
   }
  }
 }

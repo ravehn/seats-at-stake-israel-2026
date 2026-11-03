@@ -181,6 +181,11 @@ Replication package of: *Seats at Stake: A Conditional Estimate of the Knesset S
 of Outdoor Campaign Advertising, Israel 2026* — an article edited by Raveh Neeman (independent researcher);
 Deposited at Zenodo: https://doi.org/10.5281/zenodo.23879734 (all versions).
 
+**Read the article:** [open the PDF](https://raw.githubusercontent.com/ravehn/seats-at-stake-israel-2026/main/docs/article/seat-estimate-k26.pdf)
+· [download the PDF of the latest release](https://github.com/ravehn/seats-at-stake-israel-2026/releases/latest/download/seat-estimate-k26.pdf)
+· [Markdown](docs/article/seat-estimate-k26.md). (GitHub's inline preview of `docs/article/seat-estimate-k26.pdf` may
+show «Unable to render code block»; the file itself is intact — use the links above.)
+
 Public repository of this package: {PUBLIC_REPO} (the same files; releases are tagged). Zenodo: DOI
 [10.5281/zenodo.23879734](https://doi.org/10.5281/zenodo.23879734) for all versions (each release has its own DOI on the record; v1.0.0:
 [10.5281/zenodo.23879735](https://doi.org/10.5281/zenodo.23879735)). Built from the author's private working repository, package version
