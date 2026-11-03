@@ -7,6 +7,10 @@
    "sha256": "d7dedf8efa462c2472cf10f922710b5fb09ab8b7d809cb3110891db7af0271af",
    "bytes": 388
   },
+  ".nojekyll": {
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
   ".zenodo.json": {
    "sha256": "d62adfbd0dedd92ee78f3111e95120e7a67b7b2d5e2bb12d4c16936754d7fd8d",
    "bytes": 2593
@@ -624,8 +628,8 @@
    "bytes": 16348
   },
   "tools/build_replication_package.py": {
-   "sha256": "95127f1279e55c6f7c0e56f9229e1a1382dd13dcafda59935c8a98f4ef5d1209",
-   "bytes": 21404
+   "sha256": "9e6e3eea1e0f67eb2675f4c1e3f9c9cc6c2307ab7bda99e1ae9fc8e7835f0875",
+   "bytes": 21529
   },
   "tools/verify_bib.py": {
    "sha256": "c506cc251e11b4f4c6a106fdc133096499cff46ddf7f35a9c5e62ac6f9230f6e",
@@ -636,8 +640,8 @@
    "bytes": 415409
   },
   "README.md": {
-   "sha256": "defc14305004c387234aa8129a89c3cb2aecda6b7aca972a86c808de33cc79c7",
-   "bytes": 6894
+   "sha256": "5aff1b7e8940de336999b8003717f5d7ba52e390a79b09004a80bd95d89ffa12",
+   "bytes": 7006
   }
  }
 }
